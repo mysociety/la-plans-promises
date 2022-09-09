@@ -3,6 +3,4 @@ title: "Download la_plans_promises"
 layout: datasets/front
 ---
 
-# Dataset download site title
-
-Here is some text underneath that.
+These datasets cover data that was sourced by climateemergency.uk and mySociety to power the [Climate Action Plan Explorer](https://data.climateemergency.uk/). 

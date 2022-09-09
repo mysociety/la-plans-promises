@@ -1,5 +1,5 @@
 import rich_click as click
-
+from .build import build_declarations, build_plans, build_commitments
 
 @click.group()
 def cli():
@@ -11,8 +11,10 @@ def main():
 
 
 @cli.command()
-def example():
-    print("This is an example function")
+def build():
+    build_declarations()
+    build_plans()
+    build_commitments()
 
 
 if __name__ == "__main__":
