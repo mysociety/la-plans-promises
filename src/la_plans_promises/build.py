@@ -22,6 +22,8 @@ def build_declarations():
         ["region", "local-authority-type-name", "county-la", "combined-authority"]
     )
 
+    df = df.replace(to_replace=[r"\\r", "\t|\n|\r"], value=["", ""], regex=True)
+
     df.set_index("local-authority-code").to_csv(
         package_folder
         / "local_authority_climate_emergency_declarations"
