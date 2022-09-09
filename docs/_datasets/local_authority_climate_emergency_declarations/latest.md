@@ -40,6 +40,7 @@ custom:
   change_log:
     0.1.0: Initial commit of data
     0.1.1: fix c-return in text
+    0.2.0: 'Existing resource field(s) removed: council_type'
 resources:
 - title: Local authority climate emergency declarations
   description: "Dataset of local authority declarations of a climate emergency with\
@@ -67,26 +68,6 @@ resources:
       constraints:
         unique: true
       example: Aberdeen City Council
-    - name: council_type
-      type: string
-      description: Type of council (unitary, county, district, etc)
-      constraints:
-        unique: false
-        enum:
-        - Unitary Scotland
-        - District
-        - Unitary NI
-        - Metro Boro
-        - Unitary Eng
-        - Unitary Wales
-        - Combined Authority
-        - County
-        - Unitary Scot
-        - Municipal Corporation
-        - Combined authority
-        - London Boro
-        - Strategic Regional Authority
-      example: Unitary Scotland
     - name: made_declaration
       type: string
       description: Has the council made a declaration of a climate emergency?
@@ -183,8 +164,8 @@ resources:
       constraints:
         unique: false
       example: SCR
-  hash: 9bfc20d71def7124d1b11e8496a92358
+  hash: b91d182bd84b405422c407d8f3821744
   download_id: local-authority-climate-emergency-declarations-declarations
-full_version: 0.1.1
+full_version: 0.2.0
 permalink: /datasets/local_authority_climate_emergency_declarations/latest
 ---

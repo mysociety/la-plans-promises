@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -53,30 +53,6 @@
                             "unique": true
                         },
                         "example": "Aberdeen City Council"
-                    },
-                    {
-                        "name": "council_type",
-                        "type": "string",
-                        "description": "Type of council (unitary, county, district, etc)",
-                        "constraints": {
-                            "unique": false,
-                            "enum": [
-                                "Unitary Scotland",
-                                "District",
-                                "Unitary NI",
-                                "Metro Boro",
-                                "Unitary Eng",
-                                "Unitary Wales",
-                                "Combined Authority",
-                                "County",
-                                "Unitary Scot",
-                                "Municipal Corporation",
-                                "Combined authority",
-                                "London Boro",
-                                "Strategic Regional Authority"
-                            ]
-                        },
-                        "example": "Unitary Scotland"
                     },
                     {
                         "name": "made_declaration",
@@ -224,12 +200,11 @@
                     }
                 ]
             },
-            "hash": "9bfc20d71def7124d1b11e8496a92358",
+            "hash": "b91d182bd84b405422c407d8f3821744",
             "data": [
                 {
                     "local-authority-code": "ABE",
                     "council": "Aberdeen City Council",
-                    "council_type": "Unitary Scotland",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "Link (turned down motion)",
@@ -250,7 +225,6 @@
                 {
                     "local-authority-code": "ABD",
                     "council": "Aberdeenshire Council",
-                    "council_type": "Unitary Scotland",
                     "made_declaration": "N but made a climate change declaration which \"recognises the world faces a climate challenge\"",
                     "date_made": "",
                     "motion_link": "Link to climate change declaration",
@@ -271,7 +245,6 @@
                 {
                     "local-authority-code": "ADU",
                     "council": "Adur District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -292,7 +265,6 @@
                 {
                     "local-authority-code": "ALL",
                     "council": "Allerdale Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y (used the word 'emergency')",
                     "date_made": "25/09/2019",
                     "motion_link": "Link",
@@ -313,7 +285,6 @@
                 {
                     "local-authority-code": "AMB",
                     "council": "Amber Valley Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -334,7 +305,6 @@
                 {
                     "local-authority-code": "ANS",
                     "council": "Angus Council",
-                    "council_type": "Unitary Scotland",
                     "made_declaration": "Y",
                     "date_made": "05/09/2019",
                     "motion_link": "Link",
@@ -355,7 +325,6 @@
                 {
                     "local-authority-code": "ANN",
                     "council": "Antrim and Newtownabbey Borough Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -376,7 +345,6 @@
                 {
                     "local-authority-code": "AND",
                     "council": "Ards and North Down Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "Y",
                     "date_made": "27/02/2019",
                     "motion_link": "Link",
@@ -397,7 +365,6 @@
                 {
                     "local-authority-code": "AGB",
                     "council": "Argyll and Bute Council",
-                    "council_type": "Unitary Scotland",
                     "made_declaration": "N (\"recognises\" but later stated as CE declaration)",
                     "date_made": "26/09/2019",
                     "motion_link": "Link (Recognises the growing concerns about the climate change emergency)",
@@ -418,7 +385,6 @@
                 {
                     "local-authority-code": "ABC",
                     "council": "Armagh City, Banbridge and Craigavon Borough Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "N (checking with Cllr)",
                     "date_made": "",
                     "motion_link": "",
@@ -439,7 +405,6 @@
                 {
                     "local-authority-code": "ARU",
                     "council": "Arun District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "15/01/2020",
                     "motion_link": "Link",
@@ -460,7 +425,6 @@
                 {
                     "local-authority-code": "ASH",
                     "council": "Ashfield District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -481,7 +445,6 @@
                 {
                     "local-authority-code": "ASF",
                     "council": "Ashford Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "Link to 2030 motion passed",
@@ -502,7 +465,6 @@
                 {
                     "local-authority-code": "BAB",
                     "council": "Babergh District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -523,7 +485,6 @@
                 {
                     "local-authority-code": "BNS",
                     "council": "Barnsley Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "18/09/2019",
                     "motion_link": "Link",
@@ -544,7 +505,6 @@
                 {
                     "local-authority-code": "BAR",
                     "council": "Barrow-in-Furness Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "16/07/2019",
                     "motion_link": "Link",
@@ -565,7 +525,6 @@
                 {
                     "local-authority-code": "BAI",
                     "council": "Basildon Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -586,7 +545,6 @@
                 {
                     "local-authority-code": "BAN",
                     "council": "Basingstoke and Deane Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -607,7 +565,6 @@
                 {
                     "local-authority-code": "BAE",
                     "council": "Bassetlaw District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -628,7 +585,6 @@
                 {
                     "local-authority-code": "BAS",
                     "council": "Bath and North East Somerset Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "14/03/2019",
                     "motion_link": "Link",
@@ -649,7 +605,6 @@
                 {
                     "local-authority-code": "BDF",
                     "council": "Bedford Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "05/03/2019",
                     "motion_link": "Link",
@@ -670,7 +625,6 @@
                 {
                     "local-authority-code": "BFS",
                     "council": "Belfast City Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "Y",
                     "date_made": "01/10/2019",
                     "motion_link": "Link",
@@ -691,7 +645,6 @@
                 {
                     "local-authority-code": "BIR",
                     "council": "Birmingham City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "11/06/2019",
                     "motion_link": "Link",
@@ -712,7 +665,6 @@
                 {
                     "local-authority-code": "BLA",
                     "council": "Blaby District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -733,7 +685,6 @@
                 {
                     "local-authority-code": "BBD",
                     "council": "Blackburn with Darwen Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -754,7 +705,6 @@
                 {
                     "local-authority-code": "BPL",
                     "council": "Blackpool Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -775,7 +725,6 @@
                 {
                     "local-authority-code": "BGW",
                     "council": "Blaenau Gwent County Borough Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "28/09/2020",
                     "motion_link": "Link",
@@ -796,7 +745,6 @@
                 {
                     "local-authority-code": "BOS",
                     "council": "Bolsover District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -817,7 +765,6 @@
                 {
                     "local-authority-code": "BOL",
                     "council": "Bolton Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "29/08/2019",
                     "motion_link": "Link",
@@ -838,7 +785,6 @@
                 {
                     "local-authority-code": "BOT",
                     "council": "Boston Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "20/01/2020",
                     "motion_link": "Link",
@@ -859,7 +805,6 @@
                 {
                     "local-authority-code": "BPC",
                     "council": "Bournemouth, Christchurch and Poole",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "16/07/2019",
                     "motion_link": "Link",
@@ -880,7 +825,6 @@
                 {
                     "local-authority-code": "BRC",
                     "council": "Bracknell Forest Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -901,7 +845,6 @@
                 {
                     "local-authority-code": "BRD",
                     "council": "Bradford Metropolitan District Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "15/01/2019",
                     "motion_link": "Link",
@@ -922,7 +865,6 @@
                 {
                     "local-authority-code": "BRA",
                     "council": "Braintree District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "22/07/2019",
                     "motion_link": "Link",
@@ -943,7 +885,6 @@
                 {
                     "local-authority-code": "BRE",
                     "council": "Breckland District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "19/09/2019",
                     "motion_link": "Link",
@@ -964,7 +905,6 @@
                 {
                     "local-authority-code": "BRW",
                     "council": "Brentwood Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -985,7 +925,6 @@
                 {
                     "local-authority-code": "BGE",
                     "council": "Bridgend County Borough Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -1006,7 +945,6 @@
                 {
                     "local-authority-code": "BNH",
                     "council": "Brighton and Hove City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "13/12/2018",
                     "motion_link": "Link",
@@ -1027,7 +965,6 @@
                 {
                     "local-authority-code": "BST",
                     "council": "Bristol City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "13/11/2018",
                     "motion_link": "Link",
@@ -1048,7 +985,6 @@
                 {
                     "local-authority-code": "BRO",
                     "council": "Broadland District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "Link to motion turned down",
@@ -1069,7 +1005,6 @@
                 {
                     "local-authority-code": "BRM",
                     "council": "Bromsgrove District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -1090,7 +1025,6 @@
                 {
                     "local-authority-code": "BRX",
                     "council": "Broxbourne Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -1111,7 +1045,6 @@
                 {
                     "local-authority-code": "BRT",
                     "council": "Broxtowe Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -1132,7 +1065,6 @@
                 {
                     "local-authority-code": "BUC",
                     "council": "Buckinghamshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N (but passed climate change motion)",
                     "date_made": "15/07/2020",
                     "motion_link": "Link",
@@ -1153,7 +1085,6 @@
                 {
                     "local-authority-code": "BUN",
                     "council": "Burnley Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "10/07/2019",
                     "motion_link": "Link",
@@ -1174,7 +1105,6 @@
                 {
                     "local-authority-code": "BUR",
                     "council": "Bury Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "10/07/2019",
                     "motion_link": "Link",
@@ -1195,7 +1125,6 @@
                 {
                     "local-authority-code": "CAY",
                     "council": "Caerphilly County Borough Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "04/06/2019",
                     "motion_link": "Link",
@@ -1216,7 +1145,6 @@
                 {
                     "local-authority-code": "CLD",
                     "council": "Calderdale Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "30/01/2019",
                     "motion_link": "Link",
@@ -1237,7 +1165,6 @@
                 {
                     "local-authority-code": "CAB",
                     "council": "Cambridge City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "21/02/2019",
                     "motion_link": "Link",
@@ -1258,7 +1185,6 @@
                 {
                     "local-authority-code": "CPCA",
                     "council": "Cambridgeshire and Peterborough Combined Authority",
-                    "council_type": "Combined Authority",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -1279,7 +1205,6 @@
                 {
                     "local-authority-code": "CAM",
                     "council": "Cambridgeshire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "14/05/2019",
                     "motion_link": "Link",
@@ -1300,7 +1225,6 @@
                 {
                     "local-authority-code": "CAN",
                     "council": "Cannock Chase District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -1321,7 +1245,6 @@
                 {
                     "local-authority-code": "CAT",
                     "council": "Canterbury City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -1342,7 +1265,6 @@
                 {
                     "local-authority-code": "CAR",
                     "council": "Carlisle City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "05/03/2019",
                     "motion_link": "Link",
@@ -1363,7 +1285,6 @@
                 {
                     "local-authority-code": "CMN",
                     "council": "Carmarthenshire County Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "20/02/2019",
                     "motion_link": "Link",
@@ -1384,7 +1305,6 @@
                 {
                     "local-authority-code": "CAS",
                     "council": "Castle Point Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N - turned it down on Sept 2020",
                     "date_made": "",
                     "motion_link": "",
@@ -1405,7 +1325,6 @@
                 {
                     "local-authority-code": "CCG",
                     "council": "Causeway Coast and Glens Borough Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "Y",
                     "date_made": "02/05/2020",
                     "motion_link": "Link",
@@ -1426,7 +1345,6 @@
                 {
                     "local-authority-code": "CBF",
                     "council": "Central Bedfordshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "05/03/2019",
                     "motion_link": "Link",
@@ -1447,7 +1365,6 @@
                 {
                     "local-authority-code": "CGN",
                     "council": "Ceredigion County Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "05/03/2020",
                     "motion_link": "Link",
@@ -1468,7 +1385,6 @@
                 {
                     "local-authority-code": "CHA",
                     "council": "Charnwood Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N - but motion committing to 2030 net zero for Council",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -1489,7 +1405,6 @@
                 {
                     "local-authority-code": "CHL",
                     "council": "Chelmsford City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "16/07/2019",
                     "motion_link": "Link",
@@ -1510,7 +1425,6 @@
                 {
                     "local-authority-code": "CHT",
                     "council": "Cheltenham Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/02/2019",
                     "motion_link": "Link",
@@ -1531,7 +1445,6 @@
                 {
                     "local-authority-code": "CHR",
                     "council": "Cherwell District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "22/07/2019",
                     "motion_link": "Link",
@@ -1552,7 +1465,6 @@
                 {
                     "local-authority-code": "CHE",
                     "council": "Cheshire East Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "22/05/2019",
                     "motion_link": "Link",
@@ -1573,7 +1485,6 @@
                 {
                     "local-authority-code": "CHW",
                     "council": "Cheshire West and Chester Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "21/05/2019",
                     "motion_link": "Link",
@@ -1594,7 +1505,6 @@
                 {
                     "local-authority-code": "CHS",
                     "council": "Chesterfield Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -1615,7 +1525,6 @@
                 {
                     "local-authority-code": "CHI",
                     "council": "Chichester District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "09/07/2019",
                     "motion_link": "Link",
@@ -1636,7 +1545,6 @@
                 {
                     "local-authority-code": "CHO",
                     "council": "Chorley Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "19/11/2019",
                     "motion_link": "Link",
@@ -1657,7 +1565,6 @@
                 {
                     "local-authority-code": "SWA",
                     "council": "Swansea City Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -1678,7 +1585,6 @@
                 {
                     "local-authority-code": "CRF",
                     "council": "City of Cardiff Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "28/03/2019",
                     "motion_link": "Link",
@@ -1699,7 +1605,6 @@
                 {
                     "local-authority-code": "GLG",
                     "council": "City of Glasgow",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "16/05/2019",
                     "motion_link": "Link",
@@ -1720,7 +1625,6 @@
                 {
                     "local-authority-code": "LND",
                     "council": "City of London",
-                    "council_type": "Municipal Corporation",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -1741,7 +1645,6 @@
                 {
                     "local-authority-code": "YOR",
                     "council": "City of York Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "11/03/2019",
                     "motion_link": "Link",
@@ -1762,7 +1665,6 @@
                 {
                     "local-authority-code": "CLK",
                     "council": "Clackmannanshire Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "19/08/2021",
                     "motion_link": "Link",
@@ -1783,7 +1685,6 @@
                 {
                     "local-authority-code": "COL",
                     "council": "Colchester Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -1804,7 +1705,6 @@
                 {
                     "local-authority-code": "ELS",
                     "council": "Comhairle nan Eilean Siar",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -1825,7 +1725,6 @@
                 {
                     "local-authority-code": "CWY",
                     "council": "Conwy County Borough Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "09/05/2019",
                     "motion_link": "Link",
@@ -1846,7 +1745,6 @@
                 {
                     "local-authority-code": "COP",
                     "council": "Copeland Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N - but released a position statement",
                     "date_made": "01/12/2019",
                     "motion_link": "Link to statement (Appendix A)",
@@ -1867,7 +1765,6 @@
                 {
                     "local-authority-code": "CON",
                     "council": "Cornwall Council (Unitary)",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "22/01/2019",
                     "motion_link": "Link",
@@ -1888,7 +1785,6 @@
                 {
                     "local-authority-code": "COT",
                     "council": "Cotswold District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "03/07/2019",
                     "motion_link": "Link",
@@ -1909,7 +1805,6 @@
                 {
                     "local-authority-code": "COV",
                     "council": "Coventry City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "18/06/2019",
                     "motion_link": "Link",
@@ -1930,7 +1825,6 @@
                 {
                     "local-authority-code": "CRA",
                     "council": "Craven District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "06/08/2019",
                     "motion_link": "Link",
@@ -1951,7 +1845,6 @@
                 {
                     "local-authority-code": "CRW",
                     "council": "Crawley Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -1972,7 +1865,6 @@
                 {
                     "local-authority-code": "CMA",
                     "council": "Cumbria County Council",
-                    "council_type": "County",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -1993,7 +1885,6 @@
                 {
                     "local-authority-code": "DAC",
                     "council": "Dacorum Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -2014,7 +1905,6 @@
                 {
                     "local-authority-code": "DAL",
                     "council": "Darlington Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -2035,7 +1925,6 @@
                 {
                     "local-authority-code": "DAR",
                     "council": "Dartford Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "07/10/2019",
                     "motion_link": "Link",
@@ -2056,7 +1945,6 @@
                 {
                     "local-authority-code": "DEN",
                     "council": "Denbighshire County Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "02/07/2019",
                     "motion_link": "Link",
@@ -2077,7 +1965,6 @@
                 {
                     "local-authority-code": "DER",
                     "council": "Derby City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "23/05/2019",
                     "motion_link": "Link",
@@ -2098,7 +1985,6 @@
                 {
                     "local-authority-code": "DBY",
                     "council": "Derbyshire County Council",
-                    "council_type": "County",
                     "made_declaration": "N - but made pledges",
                     "date_made": "05/2019",
                     "motion_link": "Link to pledges",
@@ -2119,7 +2005,6 @@
                 {
                     "local-authority-code": "DEB",
                     "council": "Derbyshire Dales District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "30/05/2019",
                     "motion_link": "Link",
@@ -2140,7 +2025,6 @@
                 {
                     "local-authority-code": "DRS",
                     "council": "Derry City and Strabane District Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -2161,7 +2045,6 @@
                 {
                     "local-authority-code": "DEV",
                     "council": "Devon County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "21/02/2019",
                     "motion_link": "Link",
@@ -2182,7 +2065,6 @@
                 {
                     "local-authority-code": "DNC",
                     "council": "Doncaster Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "19/09/2019",
                     "motion_link": "Link",
@@ -2203,7 +2085,6 @@
                 {
                     "local-authority-code": "DST",
                     "council": "Dorset Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "16/05/2019",
                     "motion_link": "Link",
@@ -2224,7 +2105,6 @@
                 {
                     "local-authority-code": "DOV",
                     "council": "Dover District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "04/11/2019",
                     "motion_link": "Link (declaration comes from recommendations of staff report)",
@@ -2245,7 +2125,6 @@
                 {
                     "local-authority-code": "DUD",
                     "council": "Dudley Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "06/07/2020",
                     "motion_link": "Link (declaration comes from recommendations of staff report)",
@@ -2266,7 +2145,6 @@
                 {
                     "local-authority-code": "DGY",
                     "council": "Dumfries and Galloway Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -2287,7 +2165,6 @@
                 {
                     "local-authority-code": "DND",
                     "council": "Dundee City Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "24/06/2019",
                     "motion_link": "Link",
@@ -2308,7 +2185,6 @@
                 {
                     "local-authority-code": "DUR",
                     "council": "Durham County Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "20/02/2019",
                     "motion_link": "Link",
@@ -2329,7 +2205,6 @@
                 {
                     "local-authority-code": "EAY",
                     "council": "East Ayrshire",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -2350,7 +2225,6 @@
                 {
                     "local-authority-code": "ECA",
                     "council": "East Cambridgeshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/10/2019",
                     "motion_link": "Link",
@@ -2371,7 +2245,6 @@
                 {
                     "local-authority-code": "EDE",
                     "council": "East Devon District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -2392,7 +2265,6 @@
                 {
                     "local-authority-code": "EDU",
                     "council": "East Dunbartonshire",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -2413,7 +2285,6 @@
                 {
                     "local-authority-code": "EHA",
                     "council": "East Hampshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -2434,7 +2305,6 @@
                 {
                     "local-authority-code": "EHE",
                     "council": "East Hertfordshire",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "25/07/2019",
                     "motion_link": "Link (Climate change motion)",
@@ -2455,7 +2325,6 @@
                 {
                     "local-authority-code": "ELI",
                     "council": "East Lindsey District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -2476,7 +2345,6 @@
                 {
                     "local-authority-code": "ELN",
                     "council": "East Lothian Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "27/08/2019",
                     "motion_link": "Link",
@@ -2497,7 +2365,6 @@
                 {
                     "local-authority-code": "ERW",
                     "council": "East Renfrewshire Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "13/08/2020",
                     "motion_link": "Link",
@@ -2518,7 +2385,6 @@
                 {
                     "local-authority-code": "ERY",
                     "council": "East Riding of Yorkshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "24/02/2021",
                     "motion_link": "Link",
@@ -2539,7 +2405,6 @@
                 {
                     "local-authority-code": "EST",
                     "council": "East Staffordshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/08/2020",
                     "motion_link": "Link",
@@ -2560,7 +2425,6 @@
                 {
                     "local-authority-code": "ESK",
                     "council": "East Suffolk Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -2581,7 +2445,6 @@
                 {
                     "local-authority-code": "ESX",
                     "council": "East Sussex County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "15/10/2019",
                     "motion_link": "Link",
@@ -2602,7 +2465,6 @@
                 {
                     "local-authority-code": "EAS",
                     "council": "Eastbourne Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "10/07/2019",
                     "motion_link": "Link",
@@ -2623,7 +2485,6 @@
                 {
                     "local-authority-code": "EAT",
                     "council": "Eastleigh Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -2644,7 +2505,6 @@
                 {
                     "local-authority-code": "EDN",
                     "council": "Eden District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/07/2019",
                     "motion_link": "Link",
@@ -2665,7 +2525,6 @@
                 {
                     "local-authority-code": "EDH",
                     "council": "City of Edinburgh Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "07/02/2019",
                     "motion_link": "Link",
@@ -2686,7 +2545,6 @@
                 {
                     "local-authority-code": "ELM",
                     "council": "Elmbridge Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -2707,7 +2565,6 @@
                 {
                     "local-authority-code": "EPP",
                     "council": "Epping Forest District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "19/09/2019",
                     "motion_link": "Link",
@@ -2728,7 +2585,6 @@
                 {
                     "local-authority-code": "EPS",
                     "council": "Epsom and Ewell Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -2749,7 +2605,6 @@
                 {
                     "local-authority-code": "ERE",
                     "council": "Erewash Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "10/10/2019",
                     "motion_link": "Link (not CE declaration but set targets and actions)",
@@ -2770,7 +2625,6 @@
                 {
                     "local-authority-code": "ESS",
                     "council": "Essex County Council",
-                    "council_type": "County",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -2791,7 +2645,6 @@
                 {
                     "local-authority-code": "EXE",
                     "council": "Exeter City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -2812,7 +2665,6 @@
                 {
                     "local-authority-code": "FAL",
                     "council": "Falkirk Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "26/08/2019",
                     "motion_link": "Link",
@@ -2833,7 +2685,6 @@
                 {
                     "local-authority-code": "FAR",
                     "council": "Fareham Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/10/2019",
                     "motion_link": "Link",
@@ -2854,7 +2705,6 @@
                 {
                     "local-authority-code": "FEN",
                     "council": "Fenland District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -2875,7 +2725,6 @@
                 {
                     "local-authority-code": "FMO",
                     "council": "Fermanagh and Omagh District Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "Y",
                     "date_made": "02/07/2019",
                     "motion_link": "Link",
@@ -2896,7 +2745,6 @@
                 {
                     "local-authority-code": "FIF",
                     "council": "Fife Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "26/09/2019",
                     "motion_link": "Link (broken - minutes being transferred to new system)",
@@ -2917,7 +2765,6 @@
                 {
                     "local-authority-code": "SHE",
                     "council": "Folkestone and Hythe District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -2938,7 +2785,6 @@
                 {
                     "local-authority-code": "FOE",
                     "council": "Forest of Dean District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "06/12/2018",
                     "motion_link": "Link",
@@ -2959,7 +2805,6 @@
                 {
                     "local-authority-code": "FYL",
                     "council": "Fylde Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -2980,7 +2825,6 @@
                 {
                     "local-authority-code": "GAT",
                     "council": "Gateshead Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "23/05/2019",
                     "motion_link": "Link",
@@ -3001,7 +2845,6 @@
                 {
                     "local-authority-code": "GED",
                     "council": "Gedling Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "20/11/2019",
                     "motion_link": "Link",
@@ -3022,7 +2865,6 @@
                 {
                     "local-authority-code": "GLO",
                     "council": "Gloucester City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/07/2019",
                     "motion_link": "Link",
@@ -3043,7 +2885,6 @@
                 {
                     "local-authority-code": "GLS",
                     "council": "Gloucestershire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "15/05/2019",
                     "motion_link": "Link",
@@ -3064,7 +2905,6 @@
                 {
                     "local-authority-code": "GOS",
                     "council": "Gosport Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -3085,7 +2925,6 @@
                 {
                     "local-authority-code": "GRA",
                     "council": "Gravesham Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -3106,7 +2945,6 @@
                 {
                     "local-authority-code": "GRY",
                     "council": "Great Yarmouth Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -3127,7 +2965,6 @@
                 {
                     "local-authority-code": "GMCA",
                     "council": "Greater Manchester Combined Authority",
-                    "council_type": "Combined Authority",
                     "made_declaration": "Y",
                     "date_made": "26/07/2019",
                     "motion_link": "Link",
@@ -3148,7 +2985,6 @@
                 {
                     "local-authority-code": "GRT",
                     "council": "Guildford Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -3169,7 +3005,6 @@
                 {
                     "local-authority-code": "GWN",
                     "council": "Gwynedd Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "07/03/2019",
                     "motion_link": "Link",
@@ -3190,7 +3025,6 @@
                 {
                     "local-authority-code": "HAL",
                     "council": "Halton Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "16/10/2019",
                     "motion_link": "Link",
@@ -3211,7 +3045,6 @@
                 {
                     "local-authority-code": "HAE",
                     "council": "Hambleton District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "14/12/2021",
                     "motion_link": "Link",
@@ -3232,7 +3065,6 @@
                 {
                     "local-authority-code": "HAM",
                     "council": "Hampshire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "17/06/2019",
                     "motion_link": "Link",
@@ -3253,7 +3085,6 @@
                 {
                     "local-authority-code": "HAO",
                     "council": "Harborough District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/06/2019",
                     "motion_link": "Link",
@@ -3274,7 +3105,6 @@
                 {
                     "local-authority-code": "HAR",
                     "council": "Harlow District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/07/2019",
                     "motion_link": "Link",
@@ -3295,7 +3125,6 @@
                 {
                     "local-authority-code": "HAG",
                     "council": "Harrogate Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y*",
                     "date_made": "10/04/2019",
                     "motion_link": "Link",
@@ -3316,7 +3145,6 @@
                 {
                     "local-authority-code": "HAT",
                     "council": "Hart District Council",
-                    "council_type": "District",
                     "made_declaration": "Y*",
                     "date_made": "01/09/2019",
                     "motion_link": "Link",
@@ -3337,7 +3165,6 @@
                 {
                     "local-authority-code": "HPL",
                     "council": "Hartlepool Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -3358,7 +3185,6 @@
                 {
                     "local-authority-code": "HAS",
                     "council": "Hastings Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "13/02/2019",
                     "motion_link": "Link",
@@ -3379,7 +3205,6 @@
                 {
                     "local-authority-code": "HAA",
                     "council": "Havant Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -3400,7 +3225,6 @@
                 {
                     "local-authority-code": "HEF",
                     "council": "Herefordshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "08/03/2019",
                     "motion_link": "Link",
@@ -3421,7 +3245,6 @@
                 {
                     "local-authority-code": "HRT",
                     "council": "Hertfordshire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "16/07/2019",
                     "motion_link": "Link",
@@ -3442,7 +3265,6 @@
                 {
                     "local-authority-code": "HER",
                     "council": "Hertsmere Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/09/2019",
                     "motion_link": "Link",
@@ -3463,7 +3285,6 @@
                 {
                     "local-authority-code": "HIG",
                     "council": "High Peak Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "15/10/2019",
                     "motion_link": "Link",
@@ -3484,7 +3305,6 @@
                 {
                     "local-authority-code": "HIN",
                     "council": "Hinckley and Bosworth Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "16/07/2019",
                     "motion_link": "Link",
@@ -3505,7 +3325,6 @@
                 {
                     "local-authority-code": "HOR",
                     "council": "Horsham District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -3526,7 +3345,6 @@
                 {
                     "local-authority-code": "KHL",
                     "council": "Hull City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "21/03/2019",
                     "motion_link": "Link",
@@ -3547,7 +3365,6 @@
                 {
                     "local-authority-code": "HUN",
                     "council": "Huntingdonshire District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -3568,7 +3385,6 @@
                 {
                     "local-authority-code": "HYN",
                     "council": "Hyndburn Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "19/09/2019",
                     "motion_link": "Link",
@@ -3589,7 +3405,6 @@
                 {
                     "local-authority-code": "IPS",
                     "council": "Ipswich Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "09/07/2019",
                     "motion_link": "Link",
@@ -3610,7 +3425,6 @@
                 {
                     "local-authority-code": "AGY",
                     "council": "Isle of Anglesey County Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "08/09/2020",
                     "motion_link": "Link",
@@ -3631,7 +3445,6 @@
                 {
                     "local-authority-code": "IOW",
                     "council": "Isle of Wight",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -3652,7 +3465,6 @@
                 {
                     "local-authority-code": "IOS",
                     "council": "Isles of Scilly Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "11/04/2019",
                     "motion_link": "Link",
@@ -3673,7 +3485,6 @@
                 {
                     "local-authority-code": "KEN",
                     "council": "Kent County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "23/05/2019",
                     "motion_link": "Link",
@@ -3694,7 +3505,6 @@
                 {
                     "local-authority-code": "",
                     "council": "Kettering Borough Council (defunct council)",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -3715,7 +3525,6 @@
                 {
                     "local-authority-code": "KIN",
                     "council": "King's Lynn and West Norfolk BoroughCouncil",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "04/02/2020",
                     "motion_link": "Link (fully recognised climate crisis)",
@@ -3736,7 +3545,6 @@
                 {
                     "local-authority-code": "KIR",
                     "council": "Kirklees Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "16/01/2019",
                     "motion_link": "Link",
@@ -3757,7 +3565,6 @@
                 {
                     "local-authority-code": "KWL",
                     "council": "Knowsley Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "29/01/2020",
                     "motion_link": "Link",
@@ -3778,7 +3585,6 @@
                 {
                     "local-authority-code": "LAN",
                     "council": "Lancashire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "28/02/2019",
                     "motion_link": "Link",
@@ -3799,7 +3605,6 @@
                 {
                     "local-authority-code": "LAC",
                     "council": "Lancaster City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "30/01/2019",
                     "motion_link": "Link",
@@ -3820,7 +3625,6 @@
                 {
                     "local-authority-code": "LDS",
                     "council": "Leeds City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "27/03/2019",
                     "motion_link": "Link",
@@ -3841,7 +3645,6 @@
                 {
                     "local-authority-code": "LCE",
                     "council": "Leicester City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "01/02/2019",
                     "motion_link": "Link",
@@ -3862,7 +3665,6 @@
                 {
                     "local-authority-code": "LEC",
                     "council": "Leicestershire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "15/05/2019",
                     "motion_link": "Link",
@@ -3883,7 +3685,6 @@
                 {
                     "local-authority-code": "LEE",
                     "council": "Lewes District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "15/07/2019",
                     "motion_link": "Link",
@@ -3904,7 +3705,6 @@
                 {
                     "local-authority-code": "LIF",
                     "council": "Lichfield District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "10/12/2019",
                     "motion_link": "Link",
@@ -3925,7 +3725,6 @@
                 {
                     "local-authority-code": "LIC",
                     "council": "City of Lincoln Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -3946,7 +3745,6 @@
                 {
                     "local-authority-code": "LIN",
                     "council": "Lincolnshire County Council",
-                    "council_type": "County",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -3967,7 +3765,6 @@
                 {
                     "local-authority-code": "LIV",
                     "council": "Liverpool City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -3988,7 +3785,6 @@
                 {
                     "local-authority-code": "LCR",
                     "council": "Liverpool City Region Combined Authority",
-                    "council_type": "Combined authority",
                     "made_declaration": "Y",
                     "date_made": "28/04/2019",
                     "motion_link": "Link (not possible to find minutes of the motion, just Mayors discussing it etc.)",
@@ -4009,7 +3805,6 @@
                 {
                     "local-authority-code": "BDG",
                     "council": "London Borough of Barking and Dagenham",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "30/01/2020",
                     "motion_link": "Link",
@@ -4030,7 +3825,6 @@
                 {
                     "local-authority-code": "BNE",
                     "council": "London Borough of Barnet",
-                    "council_type": "London Boro",
                     "made_declaration": "N",
                     "date_made": "30/07/2019",
                     "motion_link": "Link",
@@ -4051,7 +3845,6 @@
                 {
                     "local-authority-code": "BEX",
                     "council": "London Borough of Bexley",
-                    "council_type": "London Boro",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -4072,7 +3865,6 @@
                 {
                     "local-authority-code": "BEN",
                     "council": "London Borough of Brent",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "08/07/2019",
                     "motion_link": "Link",
@@ -4093,7 +3885,6 @@
                 {
                     "local-authority-code": "CMD",
                     "council": "London Borough of Camden",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "08/04/2019",
                     "motion_link": "Link (full declaration on slide 3)",
@@ -4114,7 +3905,6 @@
                 {
                     "local-authority-code": "CRY",
                     "council": "London Borough of Croydon",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "15/07/2019",
                     "motion_link": "Link (report recommendations here)",
@@ -4135,7 +3925,6 @@
                 {
                     "local-authority-code": "EAL",
                     "council": "London Borough of Ealing",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "02/04/2019",
                     "motion_link": "Link",
@@ -4156,7 +3945,6 @@
                 {
                     "local-authority-code": "ENF",
                     "council": "London Borough of Enfield",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "08/07/2019",
                     "motion_link": "Link",
@@ -4177,7 +3965,6 @@
                 {
                     "local-authority-code": "HCK",
                     "council": "London Borough of Hackney",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "28/06/2019",
                     "motion_link": "Link",
@@ -4198,7 +3985,6 @@
                 {
                     "local-authority-code": "HMF",
                     "council": "London Borough of Hammersmith and Fulham",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -4219,7 +4005,6 @@
                 {
                     "local-authority-code": "HRY",
                     "council": "London Borough of Haringey",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "18/03/2019",
                     "motion_link": "Link",
@@ -4240,7 +4025,6 @@
                 {
                     "local-authority-code": "HRW",
                     "council": "London Borough of Harrow",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -4261,7 +4045,6 @@
                 {
                     "local-authority-code": "HAV",
                     "council": "London Borough of Havering",
-                    "council_type": "London Boro",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -4282,7 +4065,6 @@
                 {
                     "local-authority-code": "HIL",
                     "council": "London Borough of Hillingdon",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "16/01/2020",
                     "motion_link": "Link",
@@ -4303,7 +4085,6 @@
                 {
                     "local-authority-code": "HNS",
                     "council": "London Borough of Hounslow",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "",
                     "motion_link": "Link",
@@ -4324,7 +4105,6 @@
                 {
                     "local-authority-code": "ISL",
                     "council": "London Borough of Islington",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -4345,7 +4125,6 @@
                 {
                     "local-authority-code": "LBH",
                     "council": "London Borough of Lambeth",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "23/01/2019",
                     "motion_link": "Link",
@@ -4366,7 +4145,6 @@
                 {
                     "local-authority-code": "LEW",
                     "council": "London Borough of Lewisham",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "27/02/2019",
                     "motion_link": "Link",
@@ -4387,7 +4165,6 @@
                 {
                     "local-authority-code": "MRT",
                     "council": "London Borough of Merton",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "10/07/2019",
                     "motion_link": "Link",
@@ -4408,7 +4185,6 @@
                 {
                     "local-authority-code": "NWM",
                     "council": "London Borough of Newham",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "15/04/2019",
                     "motion_link": "Link",
@@ -4429,7 +4205,6 @@
                 {
                     "local-authority-code": "RDB",
                     "council": "London Borough of Redbridge",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "20/06/2019",
                     "motion_link": "Link",
@@ -4450,7 +4225,6 @@
                 {
                     "local-authority-code": "RIC",
                     "council": "London Borough of Richmond Upon Thames",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "09/07/2019",
                     "motion_link": "Link",
@@ -4471,7 +4245,6 @@
                 {
                     "local-authority-code": "SWK",
                     "council": "London Borough of Southwark",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "27/03/2019",
                     "motion_link": "Link",
@@ -4492,7 +4265,6 @@
                 {
                     "local-authority-code": "STN",
                     "council": "London Borough of Sutton",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "22/07/2019",
                     "motion_link": "Link",
@@ -4513,7 +4285,6 @@
                 {
                     "local-authority-code": "TWH",
                     "council": "London Borough of Tower Hamlets",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link (Technically Mayor declared a climate emergency in March 2019 but Council followed up with motion to spell out commitments)",
@@ -4534,7 +4305,6 @@
                 {
                     "local-authority-code": "WFT",
                     "council": "London Borough of Waltham Forest",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "25/04/2019",
                     "motion_link": "Link",
@@ -4555,7 +4325,6 @@
                 {
                     "local-authority-code": "WND",
                     "council": "London Borough of Wandsworth",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -4576,7 +4345,6 @@
                 {
                     "local-authority-code": "LUT",
                     "council": "Luton Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "13/01/2020",
                     "motion_link": "Link",
@@ -4597,7 +4365,6 @@
                 {
                     "local-authority-code": "MAI",
                     "council": "Maidstone Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "10/04/2019",
                     "motion_link": "Link",
@@ -4618,7 +4385,6 @@
                 {
                     "local-authority-code": "MAL",
                     "council": "Maldon District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "04/02/2021",
                     "motion_link": "Link (approved here)",
@@ -4639,7 +4405,6 @@
                 {
                     "local-authority-code": "MAV",
                     "council": "Malvern Hills District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -4660,7 +4425,6 @@
                 {
                     "local-authority-code": "MAN",
                     "council": "Manchester City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "10/07/2019",
                     "motion_link": "Link",
@@ -4681,7 +4445,6 @@
                 {
                     "local-authority-code": "MAS",
                     "council": "Mansfield District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "05/03/2019",
                     "motion_link": "Link",
@@ -4702,7 +4465,6 @@
                 {
                     "local-authority-code": "MDW",
                     "council": "Medway Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "25/04/2019",
                     "motion_link": "Link",
@@ -4723,7 +4485,6 @@
                 {
                     "local-authority-code": "MEL",
                     "council": "Melton Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -4744,7 +4505,6 @@
                 {
                     "local-authority-code": "MEN",
                     "council": "Mendip District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "25/02/2019",
                     "motion_link": "Link",
@@ -4765,7 +4525,6 @@
                 {
                     "local-authority-code": "LBC",
                     "council": "Lisburn and Castlereagh City Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "",
                     "date_made": "28/09/2021",
                     "motion_link": "https://www.lisburncastlereagh.gov.uk/uploads/minutes/MM_28.09.2021_-_WEBSITE_Agenda_+_Reports.pdf",
@@ -4786,7 +4545,6 @@
                 {
                     "local-authority-code": "MEA",
                     "council": "Mid and East Antrim Borough Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "Y",
                     "date_made": "09/09/2019",
                     "motion_link": "Link",
@@ -4807,7 +4565,6 @@
                 {
                     "local-authority-code": "MDE",
                     "council": "Mid Devon District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -4828,7 +4585,6 @@
                 {
                     "local-authority-code": "MSU",
                     "council": "Mid Suffolk District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "25/07/2019",
                     "motion_link": "Link",
@@ -4849,7 +4605,6 @@
                 {
                     "local-authority-code": "MSS",
                     "council": "Mid Sussex District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -4870,7 +4625,6 @@
                 {
                     "local-authority-code": "MDB",
                     "council": "Middlesbrough Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "04/09/2019",
                     "motion_link": "Link",
@@ -4891,7 +4645,6 @@
                 {
                     "local-authority-code": "MLN",
                     "council": "Midlothian Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "17/12/2019",
                     "motion_link": "Link",
@@ -4912,7 +4665,6 @@
                 {
                     "local-authority-code": "MIK",
                     "council": "Milton Keynes",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "23/01/2019",
                     "motion_link": "Link",
@@ -4933,7 +4685,6 @@
                 {
                     "local-authority-code": "MOL",
                     "council": "Mole Valley District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/06/2019",
                     "motion_link": "Link",
@@ -4954,7 +4705,6 @@
                 {
                     "local-authority-code": "MON",
                     "council": "Monmouthshire County Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "16/05/2019",
                     "motion_link": "Link",
@@ -4975,7 +4725,6 @@
                 {
                     "local-authority-code": "NEW",
                     "council": "New Forest District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "06/11/2021",
                     "motion_link": "Link",
@@ -4996,7 +4745,6 @@
                 {
                     "local-authority-code": "NEA",
                     "council": "Newark and Sherwood District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "16/07/2019",
                     "motion_link": "Link",
@@ -5017,7 +4765,6 @@
                 {
                     "local-authority-code": "NEC",
                     "council": "Newcastle-Under-Lyme Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "03/04/2019",
                     "motion_link": "Link",
@@ -5038,7 +4785,6 @@
                 {
                     "local-authority-code": "NET",
                     "council": "Newcastle-upon-Tyne City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "03/04/2019",
                     "motion_link": "Link",
@@ -5059,7 +4805,6 @@
                 {
                     "local-authority-code": "NWP",
                     "council": "Newport City Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "23/11/2021",
                     "motion_link": "Link",
@@ -5080,7 +4825,6 @@
                 {
                     "local-authority-code": "NMD",
                     "council": "Newry, Mourne and Down District Council",
-                    "council_type": "Unitary NI",
                     "made_declaration": "Y",
                     "date_made": "07/10/2019",
                     "motion_link": "Link",
@@ -5101,7 +4845,6 @@
                 {
                     "local-authority-code": "NFK",
                     "council": "Norfolk County Council",
-                    "council_type": "County",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -5122,7 +4865,6 @@
                 {
                     "local-authority-code": "NAY",
                     "council": "North Ayrshire Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "25/06/2019",
                     "motion_link": "Link",
@@ -5143,7 +4885,6 @@
                 {
                     "local-authority-code": "NDE",
                     "council": "North Devon Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -5164,7 +4905,6 @@
                 {
                     "local-authority-code": "NECA",
                     "council": "North East Combined Authority",
-                    "council_type": "Combined Authority",
                     "made_declaration": "Y",
                     "date_made": "05/11/2019",
                     "motion_link": "Link",
@@ -5185,7 +4925,6 @@
                 {
                     "local-authority-code": "NED",
                     "council": "North East Derbyshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "08/07/2019",
                     "motion_link": "Link",
@@ -5206,7 +4945,6 @@
                 {
                     "local-authority-code": "NEL",
                     "council": "North East Lincolnshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "19/09/2019",
                     "motion_link": "Link (need to check link with other people - had to request minutes)",
@@ -5227,7 +4965,6 @@
                 {
                     "local-authority-code": "NHE",
                     "council": "North Hertfordshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "21/05/2019",
                     "motion_link": "Link",
@@ -5248,7 +4985,6 @@
                 {
                     "local-authority-code": "NKE",
                     "council": "North Kesteven District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/07/2019",
                     "motion_link": "Link",
@@ -5269,7 +5005,6 @@
                 {
                     "local-authority-code": "NLK",
                     "council": "North Lanarkshire",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "20/06/2019",
                     "motion_link": "Link",
@@ -5290,7 +5025,6 @@
                 {
                     "local-authority-code": "NLN",
                     "council": "North Lincolnshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -5311,7 +5045,6 @@
                 {
                     "local-authority-code": "NNO",
                     "council": "North Norfolk District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/04/2019",
                     "motion_link": "Link",
@@ -5332,7 +5065,6 @@
                 {
                     "local-authority-code": "NNT",
                     "council": "North Northamptonshire",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "28/07/2021",
                     "motion_link": "Link",
@@ -5353,7 +5085,6 @@
                 {
                     "local-authority-code": "NTCA",
                     "council": "North of Tyne Combined Authority",
-                    "council_type": "Combined Authority",
                     "made_declaration": "Y",
                     "date_made": "07/05/2019",
                     "motion_link": "Link",
@@ -5374,7 +5105,6 @@
                 {
                     "local-authority-code": "NSM",
                     "council": "North Somerset Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "19/02/2019",
                     "motion_link": "Link",
@@ -5395,7 +5125,6 @@
                 {
                     "local-authority-code": "NTY",
                     "council": "North Tyneside",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "25/07/2019",
                     "motion_link": "Link",
@@ -5416,7 +5145,6 @@
                 {
                     "local-authority-code": "NWA",
                     "council": "North Warwickshire Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "22/10/2019",
                     "motion_link": "Link",
@@ -5437,7 +5165,6 @@
                 {
                     "local-authority-code": "NWL",
                     "council": "North West Leicestershire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "25/06/2019",
                     "motion_link": "Link",
@@ -5458,7 +5185,6 @@
                 {
                     "local-authority-code": "NYK",
                     "council": "North Yorkshire County Council",
-                    "council_type": "County",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -5479,7 +5205,6 @@
                 {
                     "local-authority-code": "NBL",
                     "council": "Northumberland County Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "11/06/2019",
                     "motion_link": "Link",
@@ -5500,7 +5225,6 @@
                 {
                     "local-authority-code": "NOW",
                     "council": "Norwich City Council",
-                    "council_type": "District",
                     "made_declaration": "Y \"recognise\"",
                     "date_made": "29/01/2019",
                     "motion_link": "Link",
@@ -5521,7 +5245,6 @@
                 {
                     "local-authority-code": "NGM",
                     "council": "Nottingham City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "21/01/2019",
                     "motion_link": "Link",
@@ -5542,7 +5265,6 @@
                 {
                     "local-authority-code": "NTT",
                     "council": "Nottinghamshire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "27/05/2021",
                     "motion_link": "Link",
@@ -5563,7 +5285,6 @@
                 {
                     "local-authority-code": "NUN",
                     "council": "Nuneaton and Bedworth Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "04/12/2019",
                     "motion_link": "Link",
@@ -5584,7 +5305,6 @@
                 {
                     "local-authority-code": "OAD",
                     "council": "Oadby and Wigston Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -5605,7 +5325,6 @@
                 {
                     "local-authority-code": "OLD",
                     "council": "Oldham Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "11/09/2019",
                     "motion_link": "Link",
@@ -5626,7 +5345,6 @@
                 {
                     "local-authority-code": "ORK",
                     "council": "Orkney Islands Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "14/05/2019",
                     "motion_link": "Link",
@@ -5647,7 +5365,6 @@
                 {
                     "local-authority-code": "OXO",
                     "council": "Oxford City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "28/01/2019",
                     "motion_link": "Link",
@@ -5668,7 +5385,6 @@
                 {
                     "local-authority-code": "OXF",
                     "council": "Oxfordshire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y - \"Acknowledge not declared\"",
                     "date_made": "02/04/2019",
                     "motion_link": "Link",
@@ -5689,7 +5405,6 @@
                 {
                     "local-authority-code": "PEM",
                     "council": "Pembrokeshire County Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "09/05/2019",
                     "motion_link": "Link",
@@ -5710,7 +5425,6 @@
                 {
                     "local-authority-code": "PEN",
                     "council": "Pendle Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/07/2019",
                     "motion_link": "Link",
@@ -5731,7 +5445,6 @@
                 {
                     "local-authority-code": "PKN",
                     "council": "Perth and Kinross Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "N - motion in support of Scottish and UK governments and to do more",
                     "date_made": "19/06/2019",
                     "motion_link": "Link",
@@ -5752,7 +5465,6 @@
                 {
                     "local-authority-code": "PTE",
                     "council": "Peterborough City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -5773,7 +5485,6 @@
                 {
                     "local-authority-code": "PLY",
                     "council": "Plymouth City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "18/03/2019",
                     "motion_link": "Link",
@@ -5794,7 +5505,6 @@
                 {
                     "local-authority-code": "POR",
                     "council": "Portsmouth City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "19/03/2019",
                     "motion_link": "Link",
@@ -5815,7 +5525,6 @@
                 {
                     "local-authority-code": "POW",
                     "council": "Powys County Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "30/07/2020",
                     "motion_link": "Link",
@@ -5836,7 +5545,6 @@
                 {
                     "local-authority-code": "PRE",
                     "council": "Preston City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/04/2019",
                     "motion_link": "Link",
@@ -5857,7 +5565,6 @@
                 {
                     "local-authority-code": "RDG",
                     "council": "Reading Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "26/02/2019",
                     "motion_link": "Link",
@@ -5878,7 +5585,6 @@
                 {
                     "local-authority-code": "RCC",
                     "council": "Redcar and Cleveland Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "28/03/2019",
                     "motion_link": "Link",
@@ -5899,7 +5605,6 @@
                 {
                     "local-authority-code": "RED",
                     "council": "Redditch Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/09/2019",
                     "motion_link": "Link",
@@ -5920,7 +5625,6 @@
                 {
                     "local-authority-code": "REI",
                     "council": "Reigate and Banstead Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -5941,7 +5645,6 @@
                 {
                     "local-authority-code": "RFW",
                     "council": "Renfrewshire Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -5962,7 +5665,6 @@
                 {
                     "local-authority-code": "RIB",
                     "council": "Ribble Valley Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -5983,7 +5685,6 @@
                 {
                     "local-authority-code": "RIH",
                     "council": "Richmondshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -6004,7 +5705,6 @@
                 {
                     "local-authority-code": "RCH",
                     "council": "Rochdale Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -6025,7 +5725,6 @@
                 {
                     "local-authority-code": "ROC",
                     "council": "Rochford District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -6046,7 +5745,6 @@
                 {
                     "local-authority-code": "ROS",
                     "council": "Rossendale Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "25/09/2019",
                     "motion_link": "Link",
@@ -6067,7 +5765,6 @@
                 {
                     "local-authority-code": "ROH",
                     "council": "Rother District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "16/09/2019",
                     "motion_link": "Link",
@@ -6088,7 +5785,6 @@
                 {
                     "local-authority-code": "ROT",
                     "council": "Rotherham Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "30/10/2019",
                     "motion_link": "Link",
@@ -6109,7 +5805,6 @@
                 {
                     "local-authority-code": "GRE",
                     "council": "Royal Borough of Greenwich",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -6130,7 +5825,6 @@
                 {
                     "local-authority-code": "KEC",
                     "council": "Royal Borough of Kensington and Chelsea",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "01/10/2019",
                     "motion_link": "Link",
@@ -6151,7 +5845,6 @@
                 {
                     "local-authority-code": "KTT",
                     "council": "Royal Borough of Kingston upon Thames",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "25/06/2019",
                     "motion_link": "Link",
@@ -6172,7 +5865,6 @@
                 {
                     "local-authority-code": "WNM",
                     "council": "Royal Borough of Windsor and Maidenhead",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -6193,7 +5885,6 @@
                 {
                     "local-authority-code": "RUG",
                     "council": "Rugby Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -6214,7 +5905,6 @@
                 {
                     "local-authority-code": "RUN",
                     "council": "Runnymede Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/10/2019",
                     "motion_link": "Link",
@@ -6235,7 +5925,6 @@
                 {
                     "local-authority-code": "RUS",
                     "council": "Rushcliffe Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "07/03/2019",
                     "motion_link": "Link",
@@ -6256,7 +5945,6 @@
                 {
                     "local-authority-code": "RUH",
                     "council": "Rushmoor Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "20/06/2019",
                     "motion_link": "Link",
@@ -6277,7 +5965,6 @@
                 {
                     "local-authority-code": "RUT",
                     "council": "Rutland County Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N (Climate Change Action Motion)",
                     "date_made": "14/10/2019",
                     "motion_link": "Link",
@@ -6298,7 +5985,6 @@
                 {
                     "local-authority-code": "RYE",
                     "council": "Ryedale District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "10/10/2019",
                     "motion_link": "Link",
@@ -6319,7 +6005,6 @@
                 {
                     "local-authority-code": "SLF",
                     "council": "Salford City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -6340,7 +6025,6 @@
                 {
                     "local-authority-code": "SAW",
                     "council": "Sandwell Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "10/03/2020",
                     "motion_link": "Link",
@@ -6361,7 +6045,6 @@
                 {
                     "local-authority-code": "SCE",
                     "council": "Scarborough Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "07/01/2019",
                     "motion_link": "Link",
@@ -6382,7 +6065,6 @@
                 {
                     "local-authority-code": "SCB",
                     "council": "Scottish Borders",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "05/09/2020",
                     "motion_link": "Link",
@@ -6403,7 +6085,6 @@
                 {
                     "local-authority-code": "SEG",
                     "council": "Sedgemoor District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "20/03/2019",
                     "motion_link": "Link",
@@ -6424,7 +6105,6 @@
                 {
                     "local-authority-code": "SFT",
                     "council": "Sefton Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -6445,7 +6125,6 @@
                 {
                     "local-authority-code": "SEL",
                     "council": "Selby District Council",
-                    "council_type": "District",
                     "made_declaration": "N - but committment to 2030 target for Council emissions.",
                     "date_made": "",
                     "motion_link": "",
@@ -6466,7 +6145,6 @@
                 {
                     "local-authority-code": "SEV",
                     "council": "Sevenoaks District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "19/10/2019",
                     "motion_link": "Not a Climate Emergency motion but Climate Change report that was approved",
@@ -6487,7 +6165,6 @@
                 {
                     "local-authority-code": "SHF",
                     "council": "Sheffield City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "06/02/2019",
                     "motion_link": "Link",
@@ -6508,7 +6185,6 @@
                 {
                     "local-authority-code": "SCR",
                     "council": "Sheffield City Region combined authority",
-                    "council_type": "Combined Authority",
                     "made_declaration": "Y",
                     "date_made": "07/11/2019",
                     "motion_link": "Link",
@@ -6529,7 +6205,6 @@
                 {
                     "local-authority-code": "ZET",
                     "council": "Shetland Islands Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "22/01/2020",
                     "motion_link": "Link",
@@ -6550,7 +6225,6 @@
                 {
                     "local-authority-code": "SHR",
                     "council": "Shropshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "16/05/2019",
                     "motion_link": "Link",
@@ -6571,7 +6245,6 @@
                 {
                     "local-authority-code": "SLG",
                     "council": "Slough Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N (Climate Change motion passed)",
                     "date_made": "23/07/2019",
                     "motion_link": "Climate Change motion (not Climate Emergency)",
@@ -6592,7 +6265,6 @@
                 {
                     "local-authority-code": "SOL",
                     "council": "Solihull Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "08/10/2019",
                     "motion_link": "Link",
@@ -6613,7 +6285,6 @@
                 {
                     "local-authority-code": "SOM",
                     "council": "Somerset County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "20/02/2019",
                     "motion_link": "Link",
@@ -6634,7 +6305,6 @@
                 {
                     "local-authority-code": "SWT",
                     "council": "Somerset West and Taunton Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "21/02/2019",
                     "motion_link": "Link",
@@ -6655,7 +6325,6 @@
                 {
                     "local-authority-code": "",
                     "council": "South Buckinghamshire DistrictCouncil",
-                    "council_type": "District",
                     "made_declaration": "",
                     "date_made": "",
                     "motion_link": "",
@@ -6676,7 +6345,6 @@
                 {
                     "local-authority-code": "SCA",
                     "council": "South Cambridgeshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "28/11/2019",
                     "motion_link": "Link",
@@ -6697,7 +6365,6 @@
                 {
                     "local-authority-code": "SDE",
                     "council": "South Derbyshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -6718,7 +6385,6 @@
                 {
                     "local-authority-code": "SGC",
                     "council": "South Gloucestershire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -6739,7 +6405,6 @@
                 {
                     "local-authority-code": "SHA",
                     "council": "South Hams District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "25/07/2019",
                     "motion_link": "Link",
@@ -6760,7 +6425,6 @@
                 {
                     "local-authority-code": "SHO",
                     "council": "South Holland District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -6781,7 +6445,6 @@
                 {
                     "local-authority-code": "SKE",
                     "council": "South Kesteven District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/09/2019",
                     "motion_link": "Link",
@@ -6802,7 +6465,6 @@
                 {
                     "local-authority-code": "SLA",
                     "council": "South Lakeland District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/02/2019",
                     "motion_link": "Link",
@@ -6823,7 +6485,6 @@
                 {
                     "local-authority-code": "SLK",
                     "council": "South Lanarkshire",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "25/09/2019",
                     "motion_link": "Link",
@@ -6844,7 +6505,6 @@
                 {
                     "local-authority-code": "SNO",
                     "council": "South Norfolk District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -6865,7 +6525,6 @@
                 {
                     "local-authority-code": "SOX",
                     "council": "South Oxfordshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/04/2019",
                     "motion_link": "Link",
@@ -6886,7 +6545,6 @@
                 {
                     "local-authority-code": "SRI",
                     "council": "South Ribble Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -6907,7 +6565,6 @@
                 {
                     "local-authority-code": "SSO",
                     "council": "South Somerset District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "21/05/2019",
                     "motion_link": "Link",
@@ -6928,7 +6585,6 @@
                 {
                     "local-authority-code": "SST",
                     "council": "South Staffordshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "10/09/2019",
                     "motion_link": "Link",
@@ -6949,7 +6605,6 @@
                 {
                     "local-authority-code": "STY",
                     "council": "South Tyneside Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -6970,7 +6625,6 @@
                 {
                     "local-authority-code": "STH",
                     "council": "Southampton City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "18/09/2019",
                     "motion_link": "Link",
@@ -6991,7 +6645,6 @@
                 {
                     "local-authority-code": "SOS",
                     "council": "Southend-on-Sea Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -7012,7 +6665,6 @@
                 {
                     "local-authority-code": "SPE",
                     "council": "Spelthorne Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "14/10/2020",
                     "motion_link": "Link",
@@ -7033,7 +6685,6 @@
                 {
                     "local-authority-code": "SAL",
                     "council": "St Albans City and District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "09/07/2019",
                     "motion_link": "Link",
@@ -7054,7 +6705,6 @@
                 {
                     "local-authority-code": "SHN",
                     "council": "St Helens Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "10/06/2019",
                     "motion_link": "Link",
@@ -7075,7 +6725,6 @@
                 {
                     "local-authority-code": "STA",
                     "council": "Stafford Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "23/07/2019",
                     "motion_link": "Link",
@@ -7096,7 +6745,6 @@
                 {
                     "local-authority-code": "STS",
                     "council": "Staffordshire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "25/07/2019",
                     "motion_link": "Link",
@@ -7117,7 +6765,6 @@
                 {
                     "local-authority-code": "STF",
                     "council": "Staffordshire Moorlands District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "10/07/2019",
                     "motion_link": "Link",
@@ -7138,7 +6785,6 @@
                 {
                     "local-authority-code": "STV",
                     "council": "Stevenage Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "12/06/2019",
                     "motion_link": "Link",
@@ -7159,7 +6805,6 @@
                 {
                     "local-authority-code": "STG",
                     "council": "Stirling Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "03/10/2019",
                     "motion_link": "Link",
@@ -7180,7 +6825,6 @@
                 {
                     "local-authority-code": "SKP",
                     "council": "Stockport Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "28/03/2019",
                     "motion_link": "Link",
@@ -7201,7 +6845,6 @@
                 {
                     "local-authority-code": "STT",
                     "council": "Stockton-on-Tees Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -7222,7 +6865,6 @@
                 {
                     "local-authority-code": "STE",
                     "council": "Stoke-on-Trent City Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "04/07/2019",
                     "motion_link": "Link",
@@ -7243,7 +6885,6 @@
                 {
                     "local-authority-code": "STR",
                     "council": "Stratford-on-Avon District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "15/07/2019",
                     "motion_link": "Link",
@@ -7264,7 +6905,6 @@
                 {
                     "local-authority-code": "STO",
                     "council": "Stroud District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "13/12/2018",
                     "motion_link": "Link",
@@ -7285,7 +6925,6 @@
                 {
                     "local-authority-code": "SFK",
                     "council": "Suffolk County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "21/03/2019",
                     "motion_link": "Link",
@@ -7306,7 +6945,6 @@
                 {
                     "local-authority-code": "SND",
                     "council": "Sunderland City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "27/03/2019",
                     "motion_link": "Link",
@@ -7327,7 +6965,6 @@
                 {
                     "local-authority-code": "SRY",
                     "council": "Surrey County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "09/07/2019",
                     "motion_link": "Link",
@@ -7348,7 +6985,6 @@
                 {
                     "local-authority-code": "SUR",
                     "council": "Surrey Heath Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "09/10/2019",
                     "motion_link": "Link",
@@ -7369,7 +7005,6 @@
                 {
                     "local-authority-code": "SWL",
                     "council": "Swale Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -7390,7 +7025,6 @@
                 {
                     "local-authority-code": "SWD",
                     "council": "Swindon Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -7411,7 +7045,6 @@
                 {
                     "local-authority-code": "TAM",
                     "council": "Tameside Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "24/02/2020",
                     "motion_link": "Link",
@@ -7432,7 +7065,6 @@
                 {
                     "local-authority-code": "TAW",
                     "council": "Tamworth Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "19/10/2019",
                     "motion_link": "Link",
@@ -7453,7 +7085,6 @@
                 {
                     "local-authority-code": "TAN",
                     "council": "Tandridge District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "13/02/2020",
                     "motion_link": "Link",
@@ -7474,7 +7105,6 @@
                 {
                     "local-authority-code": "TEI",
                     "council": "Teignbridge District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/04/2019",
                     "motion_link": "Link",
@@ -7495,7 +7125,6 @@
                 {
                     "local-authority-code": "TFW",
                     "council": "Telford & Wrekin Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "25/07/2019",
                     "motion_link": "Link",
@@ -7516,7 +7145,6 @@
                 {
                     "local-authority-code": "TEN",
                     "council": "Tendring District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "06/08/2019",
                     "motion_link": "Link",
@@ -7537,7 +7165,6 @@
                 {
                     "local-authority-code": "TES",
                     "council": "Test Valley Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "04/09/2019",
                     "motion_link": "Link",
@@ -7558,7 +7185,6 @@
                 {
                     "local-authority-code": "TEW",
                     "council": "Tewkesbury Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "01/10/2019",
                     "motion_link": "Link",
@@ -7579,7 +7205,6 @@
                 {
                     "local-authority-code": "THA",
                     "council": "Thanet District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/07/2019",
                     "motion_link": "Link",
@@ -7600,7 +7225,6 @@
                 {
                     "local-authority-code": "HLD",
                     "council": "The Highland Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "09/05/2019",
                     "motion_link": "Link",
@@ -7621,7 +7245,6 @@
                 {
                     "local-authority-code": "MRY",
                     "council": "The Moray Council",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -7642,7 +7265,6 @@
                 {
                     "local-authority-code": "THE",
                     "council": "Three Rivers District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "21/05/2019",
                     "motion_link": "Link",
@@ -7663,7 +7285,6 @@
                 {
                     "local-authority-code": "THR",
                     "council": "Thurrock Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "23/10/2019",
                     "motion_link": "Link",
@@ -7684,7 +7305,6 @@
                 {
                     "local-authority-code": "TON",
                     "council": "Tonbridge and Malling Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "09/07/2019",
                     "motion_link": "Link",
@@ -7705,7 +7325,6 @@
                 {
                     "local-authority-code": "TOB",
                     "council": "Torbay Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "19/06/2019",
                     "motion_link": "Link",
@@ -7726,7 +7345,6 @@
                 {
                     "local-authority-code": "TOF",
                     "council": "Torfaen County Borough Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "25/06/2019",
                     "motion_link": "Link",
@@ -7747,7 +7365,6 @@
                 {
                     "local-authority-code": "TOR",
                     "council": "Torridge District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "01/07/2019",
                     "motion_link": "Link",
@@ -7768,7 +7385,6 @@
                 {
                     "local-authority-code": "TRF",
                     "council": "Trafford Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "28/11/2018",
                     "motion_link": "Link",
@@ -7789,7 +7405,6 @@
                 {
                     "local-authority-code": "TUN",
                     "council": "Tunbridge Wells Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -7810,7 +7425,6 @@
                 {
                     "local-authority-code": "UTT",
                     "council": "Uttlesford District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "30/07/2019",
                     "motion_link": "Link",
@@ -7831,7 +7445,6 @@
                 {
                     "local-authority-code": "VGL",
                     "council": "Vale of Glamorgan Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "29/07/2019",
                     "motion_link": "Link",
@@ -7852,7 +7465,6 @@
                 {
                     "local-authority-code": "VAL",
                     "council": "Vale of White Horse District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "13/02/2019",
                     "motion_link": "Link",
@@ -7873,7 +7485,6 @@
                 {
                     "local-authority-code": "WKF",
                     "council": "Wakefield Metropolitan District Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "23/05/2019",
                     "motion_link": "Link",
@@ -7894,7 +7505,6 @@
                 {
                     "local-authority-code": "WLL",
                     "council": "Walsall Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "16/09/2019",
                     "motion_link": "Link",
@@ -7915,7 +7525,6 @@
                 {
                     "local-authority-code": "WRT",
                     "council": "Warrington Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "07/06/2019",
                     "motion_link": "Link",
@@ -7936,7 +7545,6 @@
                 {
                     "local-authority-code": "WAW",
                     "council": "Warwick District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link",
@@ -7957,7 +7565,6 @@
                 {
                     "local-authority-code": "WAR",
                     "council": "Warwickshire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "25/07/2019",
                     "motion_link": "Link",
@@ -7978,7 +7585,6 @@
                 {
                     "local-authority-code": "WAT",
                     "council": "Watford Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "09/07/2019",
                     "motion_link": "Link",
@@ -7999,7 +7605,6 @@
                 {
                     "local-authority-code": "WAE",
                     "council": "Waverley Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/09/2019",
                     "motion_link": "Link",
@@ -8020,7 +7625,6 @@
                 {
                     "local-authority-code": "WEA",
                     "council": "Wealden District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "24/07/2019",
                     "motion_link": "Link",
@@ -8041,7 +7645,6 @@
                 {
                     "local-authority-code": "WEL",
                     "council": "Wellingborough Borough Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -8062,7 +7665,6 @@
                 {
                     "local-authority-code": "WEW",
                     "council": "Welwyn Hatfield Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "19/06/2019",
                     "motion_link": "Link",
@@ -8083,7 +7685,6 @@
                 {
                     "local-authority-code": "WBK",
                     "council": "West Berkshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "02/07/2019",
                     "motion_link": "Link",
@@ -8104,7 +7705,6 @@
                 {
                     "local-authority-code": "WDE",
                     "council": "West Devon District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "21/05/2019",
                     "motion_link": "Link",
@@ -8125,7 +7725,6 @@
                 {
                     "local-authority-code": "WDU",
                     "council": "West Dunbartonshire",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "29/05/2019",
                     "motion_link": "Link",
@@ -8146,7 +7745,6 @@
                 {
                     "local-authority-code": "WLA",
                     "council": "West Lancashire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -8167,7 +7765,6 @@
                 {
                     "local-authority-code": "WLI",
                     "council": "West Lindsey District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -8188,7 +7785,6 @@
                 {
                     "local-authority-code": "WLN",
                     "council": "West Lothian",
-                    "council_type": "Unitary Scot",
                     "made_declaration": "Y",
                     "date_made": "24/09/2019",
                     "motion_link": "Link",
@@ -8209,7 +7805,6 @@
                 {
                     "local-authority-code": "WMCA",
                     "council": "West Midlands Combined Authority",
-                    "council_type": "Combined authority",
                     "made_declaration": "Y",
                     "date_made": "28/06/2019",
                     "motion_link": "Link to articleLink to minutes",
@@ -8230,7 +7825,6 @@
                 {
                     "local-authority-code": "WNT",
                     "council": "West Northamptonshire",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "N - New Council",
                     "date_made": "",
                     "motion_link": "",
@@ -8251,7 +7845,6 @@
                 {
                     "local-authority-code": "WECA",
                     "council": "West of England Combined Authority",
-                    "council_type": "Combined authority",
                     "made_declaration": "Y",
                     "date_made": "01/07/2019",
                     "motion_link": "Link",
@@ -8272,7 +7865,6 @@
                 {
                     "local-authority-code": "WOX",
                     "council": "West Oxfordshire District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "26/06/2019",
                     "motion_link": "Link (ignore wrong date in title of the document)",
@@ -8293,7 +7885,6 @@
                 {
                     "local-authority-code": "WSK",
                     "council": "West Suffolk Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "19/09/2019",
                     "motion_link": "Link",
@@ -8314,7 +7905,6 @@
                 {
                     "local-authority-code": "WSX",
                     "council": "West Sussex County Council",
-                    "council_type": "County",
                     "made_declaration": "Y \"note the call... to declare a climate emergency\"",
                     "date_made": "05/04/2019",
                     "motion_link": "Link",
@@ -8335,7 +7925,6 @@
                 {
                     "local-authority-code": "WYCA",
                     "council": "West Yorkshire Combined Authority",
-                    "council_type": "Combined Authority",
                     "made_declaration": "Y",
                     "date_made": "27/06/2019",
                     "motion_link": "Link",
@@ -8356,7 +7945,6 @@
                 {
                     "local-authority-code": "WSM",
                     "council": "Westminster City Council",
-                    "council_type": "London Boro",
                     "made_declaration": "Y",
                     "date_made": "18/09/2019",
                     "motion_link": "Link",
@@ -8377,7 +7965,6 @@
                 {
                     "local-authority-code": "WGN",
                     "council": "Wigan Metropolitan Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -8398,7 +7985,6 @@
                 {
                     "local-authority-code": "WIL",
                     "council": "Wiltshire Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "26/02/2019",
                     "motion_link": "Link",
@@ -8419,7 +8005,6 @@
                 {
                     "local-authority-code": "WIN",
                     "council": "Winchester City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "05/06/2019",
                     "motion_link": "Link",
@@ -8440,7 +8025,6 @@
                 {
                     "local-authority-code": "WRL",
                     "council": "Wirral Borough Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "15/07/2019",
                     "motion_link": "Link",
@@ -8461,7 +8045,6 @@
                 {
                     "local-authority-code": "WOI",
                     "council": "Woking Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "25/07/2019",
                     "motion_link": "Link",
@@ -8482,7 +8065,6 @@
                 {
                     "local-authority-code": "WOK",
                     "council": "Wokingham Borough Council",
-                    "council_type": "Unitary Eng",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -8503,7 +8085,6 @@
                 {
                     "local-authority-code": "WLV",
                     "council": "Wolverhampton City Council",
-                    "council_type": "Metro Boro",
                     "made_declaration": "Y",
                     "date_made": "17/07/2019",
                     "motion_link": "Link",
@@ -8524,7 +8105,6 @@
                 {
                     "local-authority-code": "WOC",
                     "council": "Worcester City Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "16/07/2019",
                     "motion_link": "Link",
@@ -8545,7 +8125,6 @@
                 {
                     "local-authority-code": "WOR",
                     "council": "Worcestershire County Council",
-                    "council_type": "County",
                     "made_declaration": "Y",
                     "date_made": "15/07/2021",
                     "motion_link": "",
@@ -8566,7 +8145,6 @@
                 {
                     "local-authority-code": "WOT",
                     "council": "Worthing Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "18/07/2019",
                     "motion_link": "Link",
@@ -8587,7 +8165,6 @@
                 {
                     "local-authority-code": "WRX",
                     "council": "Wrexham County Borough Council",
-                    "council_type": "Unitary Wales",
                     "made_declaration": "Y",
                     "date_made": "25/09/2019",
                     "motion_link": "Link",
@@ -8608,7 +8185,6 @@
                 {
                     "local-authority-code": "WYC",
                     "council": "Wychavon District Council",
-                    "council_type": "District",
                     "made_declaration": "N",
                     "date_made": "",
                     "motion_link": "",
@@ -8629,7 +8205,6 @@
                 {
                     "local-authority-code": "WYR",
                     "council": "Wyre Borough Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "11/07/2019",
                     "motion_link": "Link",
@@ -8650,7 +8225,6 @@
                 {
                     "local-authority-code": "WYE",
                     "council": "Wyre Forest District Council",
-                    "council_type": "District",
                     "made_declaration": "Y",
                     "date_made": "22/05/2019",
                     "motion_link": "Link",
@@ -8671,7 +8245,6 @@
                 {
                     "local-authority-code": "GLA",
                     "council": "Greater London Authority",
-                    "council_type": "Strategic Regional Authority",
                     "made_declaration": "Y",
                     "date_made": "01/12/2019",
                     "motion_link": "Link",

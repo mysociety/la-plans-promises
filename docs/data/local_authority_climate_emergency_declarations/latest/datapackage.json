@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -52,7 +52,8 @@
         },
         "change_log": {
             "0.1.0": "Initial commit of data",
-            "0.1.1": "fix c-return in text"
+            "0.1.1": "fix c-return in text",
+            "0.2.0": "Existing resource field(s) removed: council_type"
         }
     },
     "resources": [
@@ -88,30 +89,6 @@
                             "unique": true
                         },
                         "example": "Aberdeen City Council"
-                    },
-                    {
-                        "name": "council_type",
-                        "type": "string",
-                        "description": "Type of council (unitary, county, district, etc)",
-                        "constraints": {
-                            "unique": false,
-                            "enum": [
-                                "Unitary Scotland",
-                                "District",
-                                "Unitary NI",
-                                "Metro Boro",
-                                "Unitary Eng",
-                                "Unitary Wales",
-                                "Combined Authority",
-                                "County",
-                                "Unitary Scot",
-                                "Municipal Corporation",
-                                "Combined authority",
-                                "London Boro",
-                                "Strategic Regional Authority"
-                            ]
-                        },
-                        "example": "Unitary Scotland"
                     },
                     {
                         "name": "made_declaration",
@@ -259,7 +236,7 @@
                     }
                 ]
             },
-            "hash": "9bfc20d71def7124d1b11e8496a92358"
+            "hash": "b91d182bd84b405422c407d8f3821744"
         }
     ]
 }
