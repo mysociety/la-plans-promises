@@ -15,7 +15,7 @@ def build_declarations():
     """
     df = pd.read_csv(DECLARATIONS_URL)
     df = df.rename(columns={"authority_code": "local-authority-code"}).drop(
-        columns=["council_region"]
+        columns=["council_region", "council_type"]
     )
 
     df = df.la.get_council_info(
