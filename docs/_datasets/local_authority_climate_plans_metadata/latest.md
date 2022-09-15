@@ -40,12 +40,13 @@ custom:
   change_log:
     0.1.0: Initial commit of data
     0.2.0: 'Existing resource field(s) type changed: twitter_url,twitter_name'
+    0.3.0: 'Existing resource field(s) type changed: twitter_url,twitter_name'
 resources:
 - title: Local authority climate plans metadata
   description: Online location and basic description of contents of LA climate action
     plans
   custom:
-    row_count: 732
+    row_count: 735
   path: plans.csv
   name: plans
   profile: tabular-data-resource
@@ -204,19 +205,19 @@ resources:
       description: URL of council website
       constraints:
         unique: false
-      example: https://www.adur-worthing.gov.uk/
+      example: https://www.aberdeencity.gov.uk
     - name: twitter_url
-      type: number
+      type: string
       description: URL of council Twitter account
       constraints:
         unique: false
-      example: ''
+      example: https://twitter.com/AberdeenCC
     - name: twitter_name
-      type: number
+      type: string
       description: Name of council Twitter account
       constraints:
         unique: false
-      example: ''
+      example: AberdeenCC
     - name: last_update
       type: string
       description: Date of last update to council data
@@ -272,8 +273,8 @@ resources:
       constraints:
         unique: false
       example: SCR
-  hash: 72765d0adec267623788a233dfd9e200
+  hash: 4f8a6b4eb151c9fea8f5530a6f8e2708
   download_id: local-authority-climate-plans-metadata-plans
-full_version: 0.2.0
+full_version: 0.3.0
 permalink: /datasets/local_authority_climate_plans_metadata/latest
 ---

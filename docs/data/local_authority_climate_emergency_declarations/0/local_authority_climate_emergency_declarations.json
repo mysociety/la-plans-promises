@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -200,7 +200,7 @@
                     }
                 ]
             },
-            "hash": "b91d182bd84b405422c407d8f3821744",
+            "hash": "cf6ec7a057eb42da8cb020a68762f9e2",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -3825,17 +3825,17 @@
                 {
                     "local-authority-code": "BNE",
                     "council": "London Borough of Barnet",
-                    "made_declaration": "N",
-                    "date_made": "30/07/2019",
+                    "made_declaration": "Y",
+                    "date_made": "24/05/2022",
                     "motion_link": "Link",
                     "ref_to_adaptation": "No",
                     "ecological_emergency": "No",
                     "ref_to_nature": "No",
-                    "call_to_gov": "Yes (in their non declaration)",
+                    "call_to_gov": "No",
                     "carbon_neutral_date": "",
                     "carbon_neutral_whole_date": "None",
                     "notes": "",
-                    "motion_url": "https://barnet.moderngov.co.uk/mgAi.aspx?ID=28972",
+                    "motion_url": "https://www.barnet.gov.uk/news/new-leader-barnet-council-appointed-declares-immediate-climate-emergency",
                     "gss_code": "E09000003",
                     "region": "London",
                     "local-authority-type-name": "London borough",

@@ -5,6 +5,6 @@ package: local_authority_climate_plans_metadata
 title: local_authority_climate_plans_metadata_xlsx
 filename: local_authority_climate_plans_metadata.xlsx
 version: latest
-full_version: 0.2.0
+full_version: 0.3.0
 file: /data/local_authority_climate_plans_metadata/latest/local_authority_climate_plans_metadata.xlsx
 ---

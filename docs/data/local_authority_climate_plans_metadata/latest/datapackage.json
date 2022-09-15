@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -52,7 +52,8 @@
         },
         "change_log": {
             "0.1.0": "Initial commit of data",
-            "0.2.0": "Existing resource field(s) type changed: twitter_url,twitter_name"
+            "0.2.0": "Existing resource field(s) type changed: twitter_url,twitter_name",
+            "0.3.0": "Existing resource field(s) type changed: twitter_url,twitter_name"
         }
     },
     "resources": [
@@ -60,7 +61,7 @@
             "title": "Local authority climate plans metadata",
             "description": "Online location and basic description of contents of LA climate action plans",
             "custom": {
-                "row_count": 732
+                "row_count": 735
             },
             "path": "plans.csv",
             "name": "plans",
@@ -291,25 +292,25 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "https://www.adur-worthing.gov.uk/"
+                        "example": "https://www.aberdeencity.gov.uk"
                     },
                     {
                         "name": "twitter_url",
-                        "type": "number",
+                        "type": "string",
                         "description": "URL of council Twitter account",
                         "constraints": {
                             "unique": false
                         },
-                        "example": ""
+                        "example": "https://twitter.com/AberdeenCC"
                     },
                     {
                         "name": "twitter_name",
-                        "type": "number",
+                        "type": "string",
                         "description": "Name of council Twitter account",
                         "constraints": {
                             "unique": false
                         },
-                        "example": ""
+                        "example": "AberdeenCC"
                     },
                     {
                         "name": "last_update",
@@ -385,7 +386,7 @@
                     }
                 ]
             },
-            "hash": "72765d0adec267623788a233dfd9e200"
+            "hash": "4f8a6b4eb151c9fea8f5530a6f8e2708"
         }
     ]
 }

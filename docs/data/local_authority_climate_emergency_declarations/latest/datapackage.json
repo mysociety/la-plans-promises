@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -53,7 +53,8 @@
         "change_log": {
             "0.1.0": "Initial commit of data",
             "0.1.1": "fix c-return in text",
-            "0.2.0": "Existing resource field(s) removed: council_type"
+            "0.2.0": "Existing resource field(s) removed: council_type",
+            "0.2.1": "Minor change in data for resource(s): declarations"
         }
     },
     "resources": [
@@ -236,7 +237,7 @@
                     }
                 ]
             },
-            "hash": "b91d182bd84b405422c407d8f3821744"
+            "hash": "cf6ec7a057eb42da8cb020a68762f9e2"
         }
     ]
 }
