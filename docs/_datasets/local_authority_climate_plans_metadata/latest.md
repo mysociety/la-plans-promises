@@ -42,6 +42,7 @@ custom:
     0.2.0: 'Existing resource field(s) type changed: twitter_url,twitter_name'
     0.3.0: 'Existing resource field(s) type changed: twitter_url,twitter_name'
     0.3.1: 'Minor change in data for resource(s): plans'
+    0.3.2: 'Minor change in data for resource(s): plans'
 resources:
 - title: Local authority climate plans metadata
   description: Online location and basic description of contents of LA climate action
@@ -274,8 +275,8 @@ resources:
       constraints:
         unique: false
       example: SCR
-  hash: 54d39defdd95c757ee8a76ab0be04d18
+  hash: 09417ec6af5873f0f289f10c11bdb9aa
   download_id: local-authority-climate-plans-metadata-plans
-full_version: 0.3.1
+full_version: 0.3.2
 permalink: /datasets/local_authority_climate_plans_metadata/latest
 ---
