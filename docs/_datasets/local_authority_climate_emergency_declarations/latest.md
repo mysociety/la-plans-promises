@@ -42,6 +42,7 @@ custom:
     0.1.1: fix c-return in text
     0.2.0: 'Existing resource field(s) removed: council_type'
     0.2.1: 'Minor change in data for resource(s): declarations'
+    0.2.2: 'Minor change in data for resource(s): declarations'
 resources:
 - title: Local authority climate emergency declarations
   description: "Dataset of local authority declarations of a climate emergency with\
@@ -165,8 +166,8 @@ resources:
       constraints:
         unique: false
       example: SCR
-  hash: cf6ec7a057eb42da8cb020a68762f9e2
+  hash: 6dc699d812e7ef623a21ea3a1ca5c143
   download_id: local-authority-climate-emergency-declarations-declarations
-full_version: 0.2.1
+full_version: 0.2.2
 permalink: /datasets/local_authority_climate_emergency_declarations/latest
 ---

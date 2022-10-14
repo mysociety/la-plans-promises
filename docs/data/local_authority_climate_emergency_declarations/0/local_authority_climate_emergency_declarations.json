@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -200,7 +200,7 @@
                     }
                 ]
             },
-            "hash": "cf6ec7a057eb42da8cb020a68762f9e2",
+            "hash": "6dc699d812e7ef623a21ea3a1ca5c143",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -1346,16 +1346,16 @@
                     "local-authority-code": "CBF",
                     "council": "Central Bedfordshire Council",
                     "made_declaration": "Y",
-                    "date_made": "05/03/2019",
+                    "date_made": "19/07/2019",
                     "motion_link": "Link",
                     "ref_to_adaptation": "Yes",
                     "ecological_emergency": "No",
                     "ref_to_nature": "No",
-                    "call_to_gov": "Yes \"Work with local MPs to call on the UK government\"",
+                    "call_to_gov": "No",
                     "carbon_neutral_date": 2030.0,
                     "carbon_neutral_whole_date": "None",
                     "notes": "",
-                    "motion_url": "http://www.councillorsupport.bedford.gov.uk/ieDecisionDetails.aspx?ID=1770",
+                    "motion_url": "https://www.centralbedfordshire.gov.uk/news/article/130/were_going_to_develop_a_climate_change_plan",
                     "gss_code": "E06000056",
                     "region": "East of England",
                     "local-authority-type-name": "Unitary authority",
