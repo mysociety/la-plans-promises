@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -52,7 +52,8 @@
         },
         "change_log": {
             "0.1.0": "Initial commit of data",
-            "0.1.1": "Minor change in data for resource(s): promises"
+            "0.1.1": "Minor change in data for resource(s): promises",
+            "0.2.0": "Change in data for resource(s): promises"
         }
     },
     "resources": [
@@ -60,7 +61,7 @@
             "title": "Local authority net zero commitments",
             "description": "Dataset of net zero promises made by local authorities, including their scope and timeline",
             "custom": {
-                "row_count": 594
+                "row_count": 595
             },
             "path": "promises.csv",
             "name": "promises",
@@ -223,7 +224,7 @@
                     }
                 ]
             },
-            "hash": "aa8bad3bc6f3eb2642f378c256f4f503"
+            "hash": "4157bb29dc9fa47edb0f4daa3b5518db"
         }
     ]
 }

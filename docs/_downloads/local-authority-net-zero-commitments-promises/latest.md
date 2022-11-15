@@ -5,6 +5,6 @@ package: local_authority_net_zero_commitments
 title: promises
 filename: promises.csv
 version: latest
-full_version: 0.1.1
+full_version: 0.2.0
 file: /data/local_authority_net_zero_commitments/latest/promises.csv
 ---
