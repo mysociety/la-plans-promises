@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -350,7 +350,7 @@
                     }
                 ]
             },
-            "hash": "08bf33dcafa9d0c9f2e5f7c3fe59e300",
+            "hash": "685be7ce9fec2e64b428573d099f399c",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -21364,7 +21364,7 @@
                     "gss_code": "E47000003",
                     "county": "",
                     "population": 2345235.0,
-                    "website_url": "https://www.westyorks-ca.gov.uk/",
+                    "website_url": "https://twitter.com/WestYorkshireCA",
                     "twitter_url": "",
                     "twitter_name": "",
                     "last_update": "2021-09-27",
