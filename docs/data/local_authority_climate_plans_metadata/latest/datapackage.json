@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.4.1",
+    "version": "0.5.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -59,7 +59,8 @@
             "0.3.3": "Minor change in data for resource(s): plans",
             "0.3.4": "Minor change in data for resource(s): plans",
             "0.4.0": "Change in data for resource(s): plans",
-            "0.4.1": "Minor change in data for resource(s): plans"
+            "0.4.1": "Minor change in data for resource(s): plans",
+            "0.5.0": "Change in data for resource(s): plans"
         }
     },
     "resources": [
@@ -67,7 +68,7 @@
             "title": "Local authority climate plans metadata",
             "description": "Online location and basic description of contents of LA climate action plans",
             "custom": {
-                "row_count": 736
+                "row_count": 740
             },
             "path": "plans.csv",
             "name": "plans",
@@ -392,7 +393,7 @@
                     }
                 ]
             },
-            "hash": "685be7ce9fec2e64b428573d099f399c"
+            "hash": "f395d08f63afebce3a1b3a528e38307c"
         }
     ]
 }
