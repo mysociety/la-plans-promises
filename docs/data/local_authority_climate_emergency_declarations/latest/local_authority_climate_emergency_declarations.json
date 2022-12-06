@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -200,7 +200,7 @@
                     }
                 ]
             },
-            "hash": "0ed372ec7a9a00bbdbee78f866a38aa6",
+            "hash": "c6cab7f612fbc5deb0e5219599322659",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -5207,7 +5207,7 @@
                     "council": "North Yorkshire County Council",
                     "made_declaration": "N",
                     "date_made": "",
-                    "motion_link": "",
+                    "motion_link": "Link",
                     "ref_to_adaptation": "",
                     "ecological_emergency": "No",
                     "ref_to_nature": "No",
@@ -5215,7 +5215,7 @@
                     "carbon_neutral_date": 2030.0,
                     "carbon_neutral_whole_date": "None",
                     "notes": "",
-                    "motion_url": "#ERROR!",
+                    "motion_url": "https://edemocracy.northyorks.gov.uk/ieListDocuments.aspx?CId=1147&MId=6413&Ver=4",
                     "gss_code": "E10000023",
                     "region": "Yorkshire and The Humber",
                     "local-authority-type-name": "County",
