@@ -53,6 +53,7 @@ custom:
     0.8.0: 'Change in data for resource(s): plans'
     0.9.0: 'Change in data for resource(s): plans'
     0.9.1: 'Minor change in data for resource(s): plans'
+    0.9.2: 'Minor change in data for resource(s): plans'
 resources:
 - title: Local authority climate plans metadata
   description: Online location and basic description of contents of LA climate action
@@ -285,8 +286,8 @@ resources:
       constraints:
         unique: false
       example: SCR
-  hash: 24fa01175bcefdaba1b9e225e4e7cbb1
+  hash: 70ef87999607e28b44330d1a254600e6
   download_id: local-authority-climate-plans-metadata-plans
-full_version: 0.9.1
+full_version: 0.9.2
 permalink: /datasets/local_authority_climate_plans_metadata/latest
 ---
