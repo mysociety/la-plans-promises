@@ -5,6 +5,11 @@ versions:
   0.1.0:
   - '0.1'
   - 0.1.0
+  0.10.0:
+  - '0'
+  - '0.10'
+  - 0.10.0
+  - latest
   0.2.0:
   - '0.2'
   - 0.2.0
@@ -43,9 +48,7 @@ versions:
   0.9.2:
   - 0.9.2
   0.9.3:
-  - '0'
   - '0.9'
   - 0.9.3
-  - latest
 permalink: /datasets/local_authority_climate_plans_metadata/versions
 ---

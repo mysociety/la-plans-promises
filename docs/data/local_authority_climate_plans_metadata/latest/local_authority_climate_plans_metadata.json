@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.9.3",
+    "version": "0.10.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -27,7 +27,7 @@
             "title": "Local authority climate plans metadata",
             "description": "Online location and basic description of contents of LA climate action plans",
             "custom": {
-                "row_count": 766
+                "row_count": 769
             },
             "name": "plans",
             "profile": "tabular-data-resource",
@@ -350,7 +350,7 @@
                     }
                 ]
             },
-            "hash": "f1b0fbf7632bf097d094d9c4b7cdb8a1",
+            "hash": "620452599dfe0245a23cb3c3a04d0a3c",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -11573,6 +11573,39 @@
                     "combined-authority": "GLA"
                 },
                 {
+                    "local-authority-code": "WND",
+                    "council": "London Borough of Wandsworth",
+                    "search_link": "",
+                    "url": "https://democracy.wandsworth.gov.uk/documents/s101831/WESS%20and%20WCAP%202023%20Cover%20Report%20-%20Final%207%20Feb%202023.pdf",
+                    "date_retrieved": "2022-02-20",
+                    "time_period": "",
+                    "type": "Progress Report",
+                    "scope": "Council only",
+                    "status": "",
+                    "homepage_mention": "",
+                    "dedicated_page": "",
+                    "well_presented": "",
+                    "baseline_analysis": "",
+                    "notes": "",
+                    "plan_due": "",
+                    "title": "Report by the Chief Executive on Delivering Sustainability for All \u2013 an update on\ndelivery of the Wandsworth Environment and Sustainability Strategy (WESS) and\nWandsworth Climate Action Plan for 2023",
+                    "title_checked": "y",
+                    "plan_path": "data/plans/london-borough-of-wandsworth-aea5e26.pdf",
+                    "file_type": "pdf",
+                    "country": "England",
+                    "gss_code": "E09000032",
+                    "county": "",
+                    "population": 329735.0,
+                    "website_url": "https://www.wandsworth.gov.uk/",
+                    "twitter_url": "",
+                    "twitter_name": "",
+                    "last_update": "2023-02-20",
+                    "region": "London",
+                    "local-authority-type-name": "London borough",
+                    "county-la": "",
+                    "combined-authority": "GLA"
+                },
+                {
                     "local-authority-code": "LUT",
                     "council": "Luton Borough Council",
                     "search_link": "https://www.google.com/search?q=Luton+Borough+Council+climate+action+plan",
@@ -21991,7 +22024,7 @@
                     "gss_code": "E47000003",
                     "county": "",
                     "population": 2345235.0,
-                    "website_url": "https://www.westyorks-ca.gov.uk/",
+                    "website_url": "https://twitter.com/WestYorkshireCA",
                     "twitter_url": "",
                     "twitter_name": "",
                     "last_update": "2021-09-27",
