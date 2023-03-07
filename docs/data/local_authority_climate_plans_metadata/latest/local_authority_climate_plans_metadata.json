@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.10.0",
+    "version": "0.11.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -27,7 +27,7 @@
             "title": "Local authority climate plans metadata",
             "description": "Online location and basic description of contents of LA climate action plans",
             "custom": {
-                "row_count": 769
+                "row_count": 770
             },
             "name": "plans",
             "profile": "tabular-data-resource",
@@ -350,7 +350,7 @@
                     }
                 ]
             },
-            "hash": "620452599dfe0245a23cb3c3a04d0a3c",
+            "hash": "b823caaf25b266499ee1cdaa41fc5eec",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -1412,7 +1412,7 @@
                     "local-authority-code": "BBD",
                     "council": "Blackburn with Darwen Borough Council",
                     "search_link": "https://www.google.com/search?q=Blackburn+with+Darwen+Borough+Council+climate+action+plan",
-                    "url": "https://democracy.blackburn.gov.uk/documents/s9700/BwD%20Climate%20Emergency%20Action%20Plan.pdf",
+                    "url": "https://blackburn-darwen.org.uk/wp-content/uploads/UA-Climate-Emergency-Action-Plan-Dec-2021.pdf",
                     "date_retrieved": "2020-08-14",
                     "time_period": "",
                     "type": "Action plan",
@@ -1426,7 +1426,7 @@
                     "plan_due": "",
                     "title": "Climate Emergency Action Plan, February 2020",
                     "title_checked": "y",
-                    "plan_path": "data/plans/blackburn-with-darwen-borough-council-68d0cbb.pdf",
+                    "plan_path": "data/plans/blackburn-with-darwen-borough-council-2c1a8ed.pdf",
                     "file_type": "pdf",
                     "country": "England",
                     "gss_code": "E06000008",
@@ -1435,7 +1435,7 @@
                     "website_url": "https://www.blackburn.gov.uk/",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2022-03-16",
+                    "last_update": "2023-03-06",
                     "region": "North West",
                     "local-authority-type-name": "Unitary authority",
                     "county-la": "",
@@ -7874,6 +7874,39 @@
                     "region": "North West",
                     "local-authority-type-name": "Combined authority",
                     "county-la": "",
+                    "combined-authority": ""
+                },
+                {
+                    "local-authority-code": "GRT",
+                    "council": "Guildford Borough Council",
+                    "search_link": "",
+                    "url": "https://democracy.guildford.gov.uk/mgConvert2PDF.aspx?ID=28786",
+                    "date_retrieved": "06/04/23",
+                    "time_period": "2023-2030",
+                    "type": "Action plan",
+                    "scope": "Whole area",
+                    "status": "Approved",
+                    "homepage_mention": "",
+                    "dedicated_page": "",
+                    "well_presented": "",
+                    "baseline_analysis": "Yes",
+                    "notes": "",
+                    "plan_due": "",
+                    "title": "Climate Change Action Plan",
+                    "title_checked": "y",
+                    "plan_path": "data/plans/guildford-borough-council-4e767ea.pdf",
+                    "file_type": "pdf",
+                    "country": "England",
+                    "gss_code": "E07000209",
+                    "county": "SRY",
+                    "population": 150352.0,
+                    "website_url": "https://www.guildford.gov.uk/",
+                    "twitter_url": "",
+                    "twitter_name": "",
+                    "last_update": "2023-03-06",
+                    "region": "South East",
+                    "local-authority-type-name": "Non-metropolitan district",
+                    "county-la": "SRY",
                     "combined-authority": ""
                 },
                 {
