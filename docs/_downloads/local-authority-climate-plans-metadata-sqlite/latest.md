@@ -5,6 +5,6 @@ package: local_authority_climate_plans_metadata
 title: local_authority_climate_plans_metadata_sqlite
 filename: local_authority_climate_plans_metadata.sqlite
 version: latest
-full_version: 0.11.0
+full_version: 0.11.1
 file: /data/local_authority_climate_plans_metadata/latest/local_authority_climate_plans_metadata.sqlite
 ---

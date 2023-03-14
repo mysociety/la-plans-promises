@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.11.0",
+    "version": "0.11.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -350,7 +350,7 @@
                     }
                 ]
             },
-            "hash": "b823caaf25b266499ee1cdaa41fc5eec",
+            "hash": "4932ebb4b0329c99c5acc08081c57be8",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -13469,7 +13469,7 @@
                     "baseline_analysis": "",
                     "notes": "",
                     "plan_due": "",
-                    "title": "Climate Plan ACT2030",
+                    "title": "Climate Plan Action on Climate Together 2030",
                     "title_checked": "y",
                     "plan_path": "data/plans/north-lanarkshire-council-8e5e4c8.pdf",
                     "file_type": "pdf",
@@ -13480,7 +13480,7 @@
                     "website_url": "https://www.northlanarkshire.gov.uk",
                     "twitter_url": "https://twitter.com/NLCPeople",
                     "twitter_name": "NLCPeople",
-                    "last_update": "2022-03-16",
+                    "last_update": "2023-03-13",
                     "region": "Scotland",
                     "local-authority-type-name": "Scottish unitary authority",
                     "county-la": "",
