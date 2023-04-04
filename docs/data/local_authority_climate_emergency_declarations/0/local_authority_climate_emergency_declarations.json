@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -200,7 +200,7 @@
                     }
                 ]
             },
-            "hash": "c6cab7f612fbc5deb0e5219599322659",
+            "hash": "274fd225c156e15d6846da4f89ae5d79",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -277,9 +277,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.allerdale.gov.uk/documents/g4801/Public%20minutes%2025th-Sep-2019%2019.00%20Council.pdf?T=11",
                     "gss_code": "E07000026",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -517,9 +517,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.barrowbc.gov.uk/documents/g329/Printed%20minutes%2016th-Jul-2019%2017.30%20Barrow%20Borough%20Council.pdf?T=1",
                     "gss_code": "E07000027",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1277,9 +1277,9 @@
                     "notes": "",
                     "motion_url": "https://carlisle.cmis.uk.com/Meetings/tabid/73/ctl/ViewMeetingPublic/mid/410/Meeting/4573/Committee/823/Default.aspx",
                     "gss_code": "E07000028",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1757,9 +1757,9 @@
                     "notes": "",
                     "motion_url": "https://www.copeland.gov.uk/sites/default/files/attachments/climate_action_policy.pdf",
                     "gss_code": "E07000029",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1837,9 +1837,9 @@
                     "notes": "",
                     "motion_url": "https://www.cravendc.gov.uk/media/8395/council-meeting-6-august-2019-agenda-and-report-pack.pdf",
                     "gss_code": "E07000163",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1877,8 +1877,8 @@
                     "notes": "",
                     "motion_url": "#ERROR!",
                     "gss_code": "E10000006",
-                    "region": "North West",
-                    "local-authority-type-name": "County",
+                    "region": "",
+                    "local-authority-type-name": "",
                     "county-la": "",
                     "combined-authority": ""
                 },
@@ -2517,9 +2517,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.eden.gov.uk/documents/g2617/Printed%20minutes%2011th-Jul-2019%2018.45%20Council.pdf?T=1",
                     "gss_code": "E07000030",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -3057,9 +3057,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.hambleton.gov.uk/ieListDocuments.aspx?CId=151&MId=1985",
                     "gss_code": "E07000164",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -3137,9 +3137,9 @@
                     "notes": "*\"The council supports measures to address the climate emergency\"",
                     "motion_url": "https://www.climateemergency.uk/blog/harrogate-2/",
                     "gss_code": "E07000165",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -4517,9 +4517,9 @@
                     "notes": "",
                     "motion_url": "https://www.mendip.gov.uk/media/21545/Item-10-Previous-Full-Council-Minutes-25-02-19/pdf/Item_10_Previous_Full_Council_Minutes_25.02.19.pdf?m=636961177991200000",
                     "gss_code": "E07000187",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5217,8 +5217,8 @@
                     "notes": "",
                     "motion_url": "https://edemocracy.northyorks.gov.uk/ieListDocuments.aspx?CId=1147&MId=6413&Ver=4",
                     "gss_code": "E10000023",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "County",
+                    "region": "",
+                    "local-authority-type-name": "",
                     "county-la": "",
                     "combined-authority": ""
                 },
@@ -5717,9 +5717,9 @@
                     "notes": "",
                     "motion_url": "https://www.richmondshire.gov.uk/news/news-archive/february-2020/climate-change-plans/",
                     "gss_code": "E07000166",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6017,9 +6017,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.ryedale.gov.uk/documents/g3019/Printed%20minutes%2010th-Oct-2019%2018.30%20Council.pdf?T=1",
                     "gss_code": "E07000167",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6077,9 +6077,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.scarborough.gov.uk/documents/g10551/Printed%20minutes%2007th-Jan-2019%2014.00%20Council.pdf?T=1",
                     "gss_code": "E07000168",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6117,9 +6117,9 @@
                     "notes": "",
                     "motion_url": "https://www.sedgemoor.gov.uk/article/2537/?action=GetMeetingDocuments&df=20/03/2019&com=20&st=md&rec=",
                     "gss_code": "E07000188",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6157,9 +6157,9 @@
                     "notes": "*No declaration but committment to 2030 target for in house emissions.",
                     "motion_url": "#ERROR!",
                     "gss_code": "E07000169",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6317,8 +6317,8 @@
                     "notes": "",
                     "motion_url": "https://democracy.somerset.gov.uk/documents/g763/Decisions%2020th-Feb-2019%2010.00%20County%20Council.pdf?T=2",
                     "gss_code": "E10000027",
-                    "region": "South West",
-                    "local-authority-type-name": "County",
+                    "region": "",
+                    "local-authority-type-name": "",
                     "county-la": "",
                     "combined-authority": ""
                 },
@@ -6337,9 +6337,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.somersetwestandtaunton.gov.uk/ieListDocuments.aspx?CId=150&MId=37",
                     "gss_code": "E07000246",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6497,9 +6497,9 @@
                     "notes": "",
                     "motion_url": "https://democracy.southlakeland.gov.uk/mgAi.aspx?ID=17126",
                     "gss_code": "E07000031",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6597,9 +6597,9 @@
                     "notes": "",
                     "motion_url": "http://modgov.southsomerset.gov.uk/documents/g2498/Decisions%2021st-May-2019%2019.30%20South%20Somerset%20District%20Council.pdf?T=2",
                     "gss_code": "E07000189",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {

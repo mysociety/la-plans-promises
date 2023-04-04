@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -129,21 +129,7 @@
                         "type": "string",
                         "description": "Region of this local authority",
                         "constraints": {
-                            "unique": false,
-                            "enum": [
-                                "Scotland",
-                                "South East",
-                                "North West",
-                                "East Midlands",
-                                "Northern Ireland",
-                                "East of England",
-                                "Yorkshire and The Humber",
-                                "South West",
-                                "West Midlands",
-                                "Wales",
-                                "London",
-                                "North East"
-                            ]
+                            "unique": false
                         },
                         "example": "Scotland"
                     },
@@ -152,19 +138,7 @@
                         "type": "string",
                         "description": "Type of local authority",
                         "constraints": {
-                            "unique": false,
-                            "enum": [
-                                "Scottish unitary authority",
-                                "Non-metropolitan district",
-                                "NI district",
-                                "Metropolitan district",
-                                "Unitary authority",
-                                "Welsh unitary authority",
-                                "Combined authority",
-                                "County",
-                                "City corporation",
-                                "London borough"
-                            ]
+                            "unique": false
                         },
                         "example": "Scottish unitary authority"
                     },
@@ -188,7 +162,7 @@
                     }
                 ]
             },
-            "hash": "77792998eb246a03127a782862f85ef6",
+            "hash": "37123d1c356ff371219b27e2fde31075",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -290,9 +264,9 @@
                     "source_name": "Climate change - Allerdale Borough Council",
                     "notes": "",
                     "gss_code": "E07000026",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -500,9 +474,9 @@
                     "source_name": "Barrow Borough Councils Climate Change Policy 2020-2025",
                     "notes": "",
                     "gss_code": "E07000027",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1265,9 +1239,9 @@
                     "source_name": "Climate Commitments | Carlisle City Council",
                     "notes": "",
                     "gss_code": "E07000028",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1670,9 +1644,9 @@
                     "source_name": "Climate Action Plan | Copeland Borough Council",
                     "notes": "",
                     "gss_code": "E07000029",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1730,9 +1704,9 @@
                     "source_name": "Climate Emergency Strategic Plan 2020-2030 | Craven District Council",
                     "notes": "",
                     "gss_code": "E07000163",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -1760,8 +1734,8 @@
                     "source_name": "Climate Change Response | Cumbria County Council",
                     "notes": "",
                     "gss_code": "E10000006",
-                    "region": "North West",
-                    "local-authority-type-name": "County",
+                    "region": "",
+                    "local-authority-type-name": "",
                     "county-la": "",
                     "combined-authority": ""
                 },
@@ -2300,9 +2274,9 @@
                     "source_name": "Climate Commitments | Eden District Council",
                     "notes": "",
                     "gss_code": "E07000030",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -2795,9 +2769,9 @@
                     "source_name": "Climate Change\nStrategy and\nAction Plan | Hambleton District Council",
                     "notes": "",
                     "gss_code": "E07000164",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -2855,9 +2829,9 @@
                     "source_name": "Carbon Reduction Strategy | Harrogate Borough Council",
                     "notes": "",
                     "gss_code": "E07000165",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -4115,9 +4089,9 @@
                     "source_name": "Climate Targets | Mendip District Council",
                     "notes": "",
                     "gss_code": "E07000187",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -4655,8 +4629,8 @@
                     "source_name": "Beyond Carbon | North Yorkshire County Council",
                     "notes": "",
                     "gss_code": "E10000023",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "County",
+                    "region": "",
+                    "local-authority-type-name": "",
                     "county-la": "",
                     "combined-authority": ""
                 },
@@ -5120,9 +5094,9 @@
                     "source_name": "Our climate emergency declaration | Richmondshire District Council",
                     "notes": "",
                     "gss_code": "E07000166",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5135,9 +5109,9 @@
                     "source_name": "Our climate emergency declaration | Richmondshire District Council",
                     "notes": "",
                     "gss_code": "E07000166",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5390,9 +5364,9 @@
                     "source_name": "Action on climate change | Ryedale District Council",
                     "notes": "",
                     "gss_code": "E07000167",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5450,9 +5424,9 @@
                     "source_name": "Net Zero Carbon | Scarborough Borough Council",
                     "notes": "",
                     "gss_code": "E07000168",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5480,9 +5454,9 @@
                     "source_name": "Sedgemoor Climate Emergency Strategy & Action Plan",
                     "notes": "",
                     "gss_code": "E07000188",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5525,9 +5499,9 @@
                     "source_name": "Net Zero 2030 | Selby District Council",
                     "notes": "",
                     "gss_code": "E07000169",
-                    "region": "Yorkshire and The Humber",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "NYK",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5645,8 +5619,8 @@
                     "source_name": "Climate Emergency Questions | Somerset County Council",
                     "notes": "",
                     "gss_code": "E10000027",
-                    "region": "South West",
-                    "local-authority-type-name": "County",
+                    "region": "",
+                    "local-authority-type-name": "",
                     "county-la": "",
                     "combined-authority": ""
                 },
@@ -5795,9 +5769,9 @@
                     "source_name": "Climate Action Plan | South Lakeland District Council",
                     "notes": "",
                     "gss_code": "E07000031",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5810,9 +5784,9 @@
                     "source_name": "Climate Action Plan | South Lakeland District Council",
                     "notes": "",
                     "gss_code": "E07000031",
-                    "region": "North West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "CMA",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -5900,9 +5874,9 @@
                     "source_name": "South Somerset Environment Strategy",
                     "notes": "",
                     "gss_code": "E07000189",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {
@@ -6440,9 +6414,9 @@
                     "source_name": "Climate positive planning | Somerset West and Taunton Council",
                     "notes": "",
                     "gss_code": "E07000246",
-                    "region": "South West",
-                    "local-authority-type-name": "Non-metropolitan district",
-                    "county-la": "SOM",
+                    "region": "",
+                    "local-authority-type-name": "",
+                    "county-la": "",
                     "combined-authority": ""
                 },
                 {

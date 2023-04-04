@@ -49,6 +49,7 @@ custom:
     0.3.2: 'Minor change in data for resource(s): declarations'
     0.3.3: 'Minor change in data for resource(s): declarations'
     0.3.4: 'Minor change in data for resource(s): declarations'
+    0.3.5: 'Minor change in data for resource(s): declarations'
 resources:
 - title: Local authority climate emergency declarations
   description: "Dataset of local authority declarations of a climate emergency with\
@@ -172,8 +173,8 @@ resources:
       constraints:
         unique: false
       example: SCR
-  hash: c6cab7f612fbc5deb0e5219599322659
+  hash: 274fd225c156e15d6846da4f89ae5d79
   download_id: local-authority-climate-emergency-declarations-declarations
-full_version: 0.3.4
+full_version: 0.3.5
 permalink: /datasets/local_authority_climate_emergency_declarations/latest
 ---
