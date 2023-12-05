@@ -5,6 +5,6 @@ package: local_authority_net_zero_commitments
 title: local_authority_net_zero_commitments_xlsx
 filename: local_authority_net_zero_commitments.xlsx
 version: latest
-full_version: 0.3.1
+full_version: 0.4.0
 file: /data/local_authority_net_zero_commitments/latest/local_authority_net_zero_commitments.xlsx
 ---

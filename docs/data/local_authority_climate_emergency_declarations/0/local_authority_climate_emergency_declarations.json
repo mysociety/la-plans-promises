@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -43,7 +43,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "ABE"
+                        "example": "ABC"
                     },
                     {
                         "name": "council",
@@ -70,7 +70,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "18/07/2019"
+                        "example": "01/02/2019"
                     },
                     {
                         "name": "motion_link",
@@ -79,7 +79,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Link (turned down motion)"
+                        "example": "Climate Change motion (not Climate Emergency)"
                     },
                     {
                         "name": "ref_to_adaptation",
@@ -97,7 +97,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "No"
+                        "example": "Biodiversity Emergency (separate - May 2019)"
                     },
                     {
                         "name": "ref_to_nature",
@@ -106,7 +106,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "None"
+                        "example": "\"City leaders can and need to make changes to... biodiversity policy\""
                     },
                     {
                         "name": "call_to_gov",
@@ -115,7 +115,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "No"
+                        "example": "? - minutes not online as transferring to new system"
                     },
                     {
                         "name": "carbon_neutral_date",
@@ -124,7 +124,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 2045.0
+                        "example": 2022.0
                     },
                     {
                         "name": "carbon_neutral_whole_date",
@@ -133,7 +133,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "None (Vision document says target will be set with strategy)"
+                        "example": "2025"
                     },
                     {
                         "name": "notes",
@@ -151,7 +151,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "https://committees.aberdeencity.gov.uk/documents/s101678/Cllr%20Yuill%20Notice%20of%20Motion%20-%20Climate%20Emergency.pdf"
+                        "example": "#ERROR!"
                     },
                     {
                         "name": "gss_code",
@@ -160,7 +160,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "S12000033"
+                        "example": "E06000001"
                     },
                     {
                         "name": "region",
@@ -169,7 +169,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Scotland"
+                        "example": "East Midlands"
                     },
                     {
                         "name": "local-authority-type-name",
@@ -178,7 +178,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Scottish unitary authority"
+                        "example": "City corporation"
                     },
                     {
                         "name": "county-la",
@@ -187,7 +187,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "WSX"
+                        "example": "CAM"
                     },
                     {
                         "name": "combined-authority",
@@ -196,11 +196,11 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "SCR"
+                        "example": "CPCA"
                     }
                 ]
             },
-            "hash": "274fd225c156e15d6846da4f89ae5d79",
+            "hash": "09dc335113c9ef9e231f8b75fbcbe347",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -365,17 +365,17 @@
                 {
                     "local-authority-code": "AGB",
                     "council": "Argyll and Bute Council",
-                    "made_declaration": "N (\"recognises\" but later stated as CE declaration)",
-                    "date_made": "26/09/2019",
-                    "motion_link": "Link (Recognises the growing concerns about the climate change emergency)",
-                    "ref_to_adaptation": "",
+                    "made_declaration": "Y (updated from just \"Recognises the growing concerns about the climate change emergency\" on 26th Sept 2019)",
+                    "date_made": "30/09/2021",
+                    "motion_link": "Link",
+                    "ref_to_adaptation": "No",
                     "ecological_emergency": "No",
                     "ref_to_nature": "No",
                     "call_to_gov": "No",
                     "carbon_neutral_date": 2045.0,
                     "carbon_neutral_whole_date": "None",
                     "notes": "",
-                    "motion_url": "https://www.argyll-bute.gov.uk/moderngov/ieListDocuments.aspx?CId=257&MId=8408",
+                    "motion_url": "https://www.argyll-bute.gov.uk/moderngov/ieListDocuments.aspx?MId=14343",
                     "gss_code": "S12000035",
                     "region": "Scotland",
                     "local-authority-type-name": "Scottish unitary authority",

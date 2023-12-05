@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -62,7 +62,12 @@
             "0.3.2": "Minor change in data for resource(s): declarations",
             "0.3.3": "Minor change in data for resource(s): declarations",
             "0.3.4": "Minor change in data for resource(s): declarations",
-            "0.3.5": "Minor change in data for resource(s): declarations"
+            "0.3.5": "Minor change in data for resource(s): declarations",
+            "0.3.6": "Minor change in data for resource(s): declarations"
+        },
+        "datasette": {
+            "about": "Info & Downloads",
+            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_6"
         }
     },
     "resources": [
@@ -70,7 +75,11 @@
             "title": "Local authority climate emergency declarations",
             "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
             "custom": {
-                "row_count": 404
+                "row_count": 404,
+                "datasette": {
+                    "about": "Info & Downloads",
+                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_6#declarations"
+                }
             },
             "path": "declarations.csv",
             "name": "declarations",
@@ -88,7 +97,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "ABE"
+                        "example": "ABC"
                     },
                     {
                         "name": "council",
@@ -115,7 +124,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "18/07/2019"
+                        "example": "01/02/2019"
                     },
                     {
                         "name": "motion_link",
@@ -124,7 +133,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Link (turned down motion)"
+                        "example": "Climate Change motion (not Climate Emergency)"
                     },
                     {
                         "name": "ref_to_adaptation",
@@ -142,7 +151,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "No"
+                        "example": "Biodiversity Emergency (separate - May 2019)"
                     },
                     {
                         "name": "ref_to_nature",
@@ -151,7 +160,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "None"
+                        "example": "\"City leaders can and need to make changes to... biodiversity policy\""
                     },
                     {
                         "name": "call_to_gov",
@@ -160,7 +169,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "No"
+                        "example": "? - minutes not online as transferring to new system"
                     },
                     {
                         "name": "carbon_neutral_date",
@@ -169,7 +178,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 2045.0
+                        "example": 2022.0
                     },
                     {
                         "name": "carbon_neutral_whole_date",
@@ -178,7 +187,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "None (Vision document says target will be set with strategy)"
+                        "example": "2025"
                     },
                     {
                         "name": "notes",
@@ -196,7 +205,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "https://committees.aberdeencity.gov.uk/documents/s101678/Cllr%20Yuill%20Notice%20of%20Motion%20-%20Climate%20Emergency.pdf"
+                        "example": "#ERROR!"
                     },
                     {
                         "name": "gss_code",
@@ -205,7 +214,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "S12000033"
+                        "example": "E06000001"
                     },
                     {
                         "name": "region",
@@ -214,7 +223,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Scotland"
+                        "example": "East Midlands"
                     },
                     {
                         "name": "local-authority-type-name",
@@ -223,7 +232,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Scottish unitary authority"
+                        "example": "City corporation"
                     },
                     {
                         "name": "county-la",
@@ -232,7 +241,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "WSX"
+                        "example": "CAM"
                     },
                     {
                         "name": "combined-authority",
@@ -241,11 +250,11 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "SCR"
+                        "example": "CPCA"
                     }
                 ]
             },
-            "hash": "274fd225c156e15d6846da4f89ae5d79"
+            "hash": "09dc335113c9ef9e231f8b75fbcbe347"
         }
     ]
 }
