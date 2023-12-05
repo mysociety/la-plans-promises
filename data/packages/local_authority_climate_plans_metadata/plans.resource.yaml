@@ -51,13 +51,10 @@ schema:
     example: "\nRoadmap to Sustainability "
   - name: out_of_date
     type: boolean
-    description:
+    description: Is this plan out of date?
     constraints:
       unique: false
-      enum:
-      - false
-      - true
-    example: 'False'
+    example: false
   - name: search_link
     type: number
     description: Link used to search for plans
@@ -167,19 +164,19 @@ schema:
     example: 2226.0
   - name: start-date
     type: string
-    description:
+    description: Data local authority started existing
     constraints:
       unique: false
     example: '1974-04-01'
   - name: end-date
     type: string
-    description:
+    description: Data local authority was replaced
     constraints:
       unique: false
     example: '2019-03-31'
   - name: replaced-by
     type: string
-    description:
+    description: Which authority they were replaced by
     constraints:
       unique: false
     example: CBD

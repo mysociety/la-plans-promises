@@ -63,7 +63,7 @@ schema:
     example: 2020 Climate Action Framework | Cherwell District Council
   - name: data_checked
     type: string
-    description:
+    description: When this plan was last checked
     constraints:
       unique: false
     example: 20/11/23
