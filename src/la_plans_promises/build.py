@@ -4,9 +4,9 @@ from data_common.pandas.df_extensions import la
 
 package_folder = Path("data", "packages")
 
-PLANS_URL = "https://data.climateemergency.uk/media/data/plans.csv"
-PROMISES_URL = "https://data.climateemergency.uk/media/data/promises.csv"
-DECLARATIONS_URL = "https://data.climateemergency.uk/media/data/declarations.csv"
+PLANS_URL = "https://cape.mysociety.org/media/data/plans.csv"
+PROMISES_URL = "https://cape.mysociety.org/media/data/promises.csv"
+DECLARATIONS_URL = "https://cape.mysociety.org/media/data/declarations.csv"
 
 
 def build_declarations():
