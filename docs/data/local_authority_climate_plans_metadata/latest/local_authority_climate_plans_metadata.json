@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.14.1",
+    "version": "0.14.2",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -363,7 +363,7 @@
                     }
                 ]
             },
-            "hash": "124d55192a07d2bf8b8bc919d60e8fd2",
+            "hash": "1e231c4c9d48b11d6cabed240609754c",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -5099,7 +5099,7 @@
                     "region": "Yorkshire and The Humber",
                     "local-authority-type-name": "Unitary authority",
                     "county-la": "",
-                    "combined-authority": ""
+                    "combined-authority": "YNYC"
                 },
                 {
                     "local-authority-code": "YOR",
@@ -5136,7 +5136,7 @@
                     "region": "Yorkshire and The Humber",
                     "local-authority-type-name": "Unitary authority",
                     "county-la": "",
-                    "combined-authority": ""
+                    "combined-authority": "YNYC"
                 },
                 {
                     "local-authority-code": "YOR",
@@ -5173,7 +5173,7 @@
                     "region": "Yorkshire and The Humber",
                     "local-authority-type-name": "Unitary authority",
                     "county-la": "",
-                    "combined-authority": ""
+                    "combined-authority": "YNYC"
                 },
                 {
                     "local-authority-code": "CLK",
@@ -26892,7 +26892,7 @@
                     "region": "Yorkshire and The Humber",
                     "local-authority-type-name": "Unitary authority",
                     "county-la": "",
-                    "combined-authority": ""
+                    "combined-authority": "YNYC"
                 },
                 {
                     "local-authority-code": "CBD",
@@ -33959,7 +33959,7 @@
                     "region": "Yorkshire and The Humber",
                     "local-authority-type-name": "Unitary authority",
                     "county-la": "",
-                    "combined-authority": ""
+                    "combined-authority": "YNYC"
                 },
                 {
                     "local-authority-code": "AGB",

@@ -51,9 +51,10 @@ custom:
     0.3.4: 'Minor change in data for resource(s): declarations'
     0.3.5: 'Minor change in data for resource(s): declarations'
     0.3.6: 'Minor change in data for resource(s): declarations'
+    0.3.7: 'Minor change in data for resource(s): declarations'
   datasette:
     about: Info & Downloads
-    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_6
+    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_7
   formats:
     csv: true
     parquet: true
@@ -65,7 +66,7 @@ resources:
     row_count: 404
     datasette:
       about: Info & Downloads
-      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_6#declarations
+      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_7#declarations
   path: declarations.csv
   name: declarations
   profile: tabular-data-resource
@@ -183,7 +184,7 @@ resources:
       constraints:
         unique: false
       example: CPCA
-  hash: 09dc335113c9ef9e231f8b75fbcbe347
-full_version: 0.3.6
+  hash: d08812133379bc9a0e559024420076e2
+full_version: 0.3.7
 permalink: /datasets/local_authority_climate_emergency_declarations/latest
 ---

@@ -16,9 +16,11 @@ versions:
   - '0.3'
   - 0.3.1
   0.4.0:
+  - 0.4.0
+  0.4.1:
   - '0'
   - '0.4'
-  - 0.4.0
+  - 0.4.1
   - latest
 permalink: /datasets/local_authority_net_zero_commitments/versions
 ---

@@ -5,6 +5,6 @@ package: local_authority_net_zero_commitments
 title: promises
 filename: promises.parquet
 version: latest
-full_version: 0.4.0
+full_version: 0.4.1
 file: /data/local_authority_net_zero_commitments/latest/promises.parquet
 ---
