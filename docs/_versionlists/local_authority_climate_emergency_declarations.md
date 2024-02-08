@@ -31,9 +31,11 @@ versions:
   0.3.6:
   - 0.3.6
   0.3.7:
+  - 0.3.7
+  0.3.8:
   - '0'
   - '0.3'
-  - 0.3.7
+  - 0.3.8
   - latest
 permalink: /datasets/local_authority_climate_emergency_declarations/versions
 ---

@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -57,11 +57,12 @@
             "0.3.0": "Change in data for resource(s): promises",
             "0.3.1": "Minor change in data for resource(s): promises",
             "0.4.0": "New field(s) added to resource: data_checked",
-            "0.4.1": "Minor change in data for resource(s): promises"
+            "0.4.1": "Minor change in data for resource(s): promises",
+            "0.4.2": "Minor change in data for resource(s): promises"
         },
         "datasette": {
             "about": "Info & Downloads",
-            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_1"
+            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_2"
         }
     },
     "resources": [
@@ -72,7 +73,7 @@
                 "row_count": 494,
                 "datasette": {
                     "about": "Info & Downloads",
-                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_1#promises"
+                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_2#promises"
                 }
             },
             "path": "promises.csv",
@@ -219,7 +220,7 @@
                     }
                 ]
             },
-            "hash": "604b11978a3c567929c3edc353a9c510"
+            "hash": "42ede7d3865c66056bc6b0f8ba663b80"
         }
     ]
 }

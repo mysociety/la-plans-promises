@@ -63,9 +63,10 @@ custom:
     0.14.0: 'New field(s) added to resource: out_of_date,start-date,end-date,replaced-by'
     0.14.1: 'Minor change in data for resource(s): plans'
     0.14.2: 'Minor change in data for resource(s): plans'
+    0.15.0: 'Existing resource field(s) type changed: out_of_date'
   datasette:
     about: Info & Downloads
-    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_14_2
+    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_15_0
   formats:
     csv: true
     parquet: true
@@ -74,10 +75,10 @@ resources:
   description: Online location and basic description of contents of LA climate action
     plans
   custom:
-    row_count: 967
+    row_count: 968
     datasette:
       about: Info & Downloads
-      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_14_2#plans
+      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_15_0#plans
   path: plans.csv
   name: plans
   profile: tabular-data-resource
@@ -125,13 +126,10 @@ resources:
         unique: false
       example: "\nRoadmap to Sustainability "
     - name: out_of_date
-      type: boolean
+      type: string
       description: Is this plan out of date?
       constraints:
         unique: false
-        enum:
-        - false
-        - true
       example: 'False'
     - name: search_link
       type: number
@@ -306,7 +304,7 @@ resources:
       constraints:
         unique: false
       example: CPCA
-  hash: 1e231c4c9d48b11d6cabed240609754c
-full_version: 0.14.2
+  hash: f31bdfcf2f5ab32e3ea4bc252c5f6751
+full_version: 0.15.0
 permalink: /datasets/local_authority_climate_plans_metadata/latest
 ---

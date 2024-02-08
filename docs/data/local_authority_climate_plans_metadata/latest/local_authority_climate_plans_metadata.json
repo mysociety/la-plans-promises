@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.14.2",
+    "version": "0.15.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -27,7 +27,7 @@
             "title": "Local authority climate plans metadata",
             "description": "Online location and basic description of contents of LA climate action plans",
             "custom": {
-                "row_count": 967
+                "row_count": 968
             },
             "name": "plans",
             "profile": "tabular-data-resource",
@@ -92,14 +92,10 @@
                     },
                     {
                         "name": "out_of_date",
-                        "type": "boolean",
+                        "type": "string",
                         "description": "Is this plan out of date?",
                         "constraints": {
-                            "unique": false,
-                            "enum": [
-                                false,
-                                true
-                            ]
+                            "unique": false
                         },
                         "example": "False"
                     },
@@ -363,7 +359,7 @@
                     }
                 ]
             },
-            "hash": "1e231c4c9d48b11d6cabed240609754c",
+            "hash": "f31bdfcf2f5ab32e3ea4bc252c5f6751",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -6612,7 +6608,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "South East",
                     "local-authority-type-name": "Non-metropolitan district",
                     "county-la": "KEN",
@@ -11829,7 +11825,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "London",
                     "local-authority-type-name": "London borough",
                     "county-la": "",
@@ -17351,10 +17347,10 @@
                 {
                     "local-authority-code": "RFW",
                     "council": "Renfrewshire Council",
-                    "url": "",
-                    "date_retrieved": "",
-                    "type": "",
-                    "title": "Carbon Plan 2020\u20132025",
+                    "url": "https://www.renfrewshire.gov.uk/article/12759/Renfrewshires-Plan-for-Net-Zero",
+                    "date_retrieved": "2024-01-09",
+                    "type": "Summary document",
+                    "title": "Renfrewshire\u2019s Plan for Net Zero",
                     "out_of_date": false,
                     "search_link": "",
                     "time_period": "",
@@ -17367,8 +17363,8 @@
                     "notes": "",
                     "plan_due": "",
                     "title_checked": "",
-                    "plan_path": "",
-                    "file_type": "",
+                    "plan_path": "data/plans/renfrewshire-council-9e48ffb.html",
+                    "file_type": "html",
                     "country": "Scotland",
                     "gss_code": "S12000038",
                     "county": "",
@@ -17379,7 +17375,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "",
+                    "last_update": "2024-02-07",
                     "region": "Scotland",
                     "local-authority-type-name": "Scottish unitary authority",
                     "county-la": "",
@@ -18822,7 +18818,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "North West",
                     "local-authority-type-name": "Metropolitan district",
                     "county-la": "",
@@ -18896,7 +18892,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "North West",
                     "local-authority-type-name": "Metropolitan district",
                     "county-la": "",
@@ -34103,7 +34099,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "South East",
                     "local-authority-type-name": "Non-metropolitan district",
                     "county-la": "KEN",
@@ -34436,7 +34432,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "London",
                     "local-authority-type-name": "London borough",
                     "county-la": "",
@@ -34732,7 +34728,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "North West",
                     "local-authority-type-name": "Metropolitan district",
                     "county-la": "",
@@ -35583,7 +35579,7 @@
                     "website_url": "",
                     "twitter_url": "",
                     "twitter_name": "",
-                    "last_update": "2024-01-08",
+                    "last_update": "2024-02-07",
                     "region": "North West",
                     "local-authority-type-name": "Metropolitan district",
                     "county-la": "",
@@ -36143,6 +36139,43 @@
                     "local-authority-type-name": "Metropolitan district",
                     "county-la": "",
                     "combined-authority": "NECA"
+                },
+                {
+                    "local-authority-code": "YNYC",
+                    "council": "York and North Yorkshire Mayoral Combined Authority",
+                    "url": "",
+                    "date_retrieved": "",
+                    "type": "",
+                    "title": "",
+                    "out_of_date": "",
+                    "search_link": "",
+                    "time_period": "",
+                    "scope": "",
+                    "status": "",
+                    "homepage_mention": "",
+                    "dedicated_page": "",
+                    "well_presented": "",
+                    "baseline_analysis": "",
+                    "notes": "",
+                    "plan_due": "",
+                    "title_checked": "",
+                    "plan_path": "",
+                    "file_type": "",
+                    "country": "England",
+                    "gss_code": "E47000012",
+                    "county": "",
+                    "population": 831622.0,
+                    "start-date": "2024-02-01",
+                    "end-date": "",
+                    "replaced-by": "",
+                    "website_url": "",
+                    "twitter_url": "",
+                    "twitter_name": "",
+                    "last_update": "",
+                    "region": "Yorkshire and The Humber",
+                    "local-authority-type-name": "Combined authority",
+                    "county-la": "",
+                    "combined-authority": ""
                 }
             ]
         }
