@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.15.1",
+    "version": "0.16.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -77,11 +77,12 @@
             "0.14.1": "Minor change in data for resource(s): plans",
             "0.14.2": "Minor change in data for resource(s): plans",
             "0.15.0": "Existing resource field(s) type changed: out_of_date",
-            "0.15.1": "Minor change in data for resource(s): plans"
+            "0.15.1": "Minor change in data for resource(s): plans",
+            "0.16.0": "Change in data for resource(s): plans"
         },
         "datasette": {
             "about": "Info & Downloads",
-            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_15_1"
+            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_16_0"
         }
     },
     "resources": [
@@ -89,10 +90,10 @@
             "title": "Local authority climate plans metadata",
             "description": "Online location and basic description of contents of LA climate action plans",
             "custom": {
-                "row_count": 968,
+                "row_count": 979,
                 "datasette": {
                     "about": "Info & Downloads",
-                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_15_1#plans"
+                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_16_0#plans"
                 }
             },
             "path": "plans.csv",
@@ -427,7 +428,7 @@
                     }
                 ]
             },
-            "hash": "f0b810d16b00d11e88d85db9ec7ba7f4"
+            "hash": "e1ec09e09cdcac26f2345cd0539a789e"
         }
     ]
 }

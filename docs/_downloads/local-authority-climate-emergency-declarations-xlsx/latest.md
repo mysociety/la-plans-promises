@@ -5,6 +5,6 @@ package: local_authority_climate_emergency_declarations
 title: local_authority_climate_emergency_declarations_xlsx
 filename: local_authority_climate_emergency_declarations.xlsx
 version: latest
-full_version: 0.3.8
+full_version: 0.3.9
 file: /data/local_authority_climate_emergency_declarations/latest/local_authority_climate_emergency_declarations.xlsx
 ---

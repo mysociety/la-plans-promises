@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.3.8",
+    "version": "0.3.9",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -200,7 +200,7 @@
                     }
                 ]
             },
-            "hash": "ccb8e76741547fbd10bcd874782891d5",
+            "hash": "05331a3c11719b392a86bd6eae25adc4",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -1385,8 +1385,8 @@
                 {
                     "local-authority-code": "CHA",
                     "council": "Charnwood Borough Council",
-                    "made_declaration": "N - but motion committing to 2030 net zero for Council",
-                    "date_made": "24/07/2019",
+                    "made_declaration": "Y",
+                    "date_made": "14/11/2023",
                     "motion_link": "Link",
                     "ref_to_adaptation": "No",
                     "ecological_emergency": "No",
@@ -1395,7 +1395,7 @@
                     "carbon_neutral_date": 2030.0,
                     "carbon_neutral_whole_date": "None",
                     "notes": "",
-                    "motion_url": "#NAME?",
+                    "motion_url": "https://www.charnwood.gov.uk/news/2023/11/14/councillors_declare_climate_emergency_and_commit_to_taking_action_to_tackle_global_warming",
                     "gss_code": "E07000130",
                     "region": "East Midlands",
                     "local-authority-type-name": "Non-metropolitan district",
