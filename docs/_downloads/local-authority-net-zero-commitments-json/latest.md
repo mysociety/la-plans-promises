@@ -5,6 +5,6 @@ package: local_authority_net_zero_commitments
 title: local_authority_net_zero_commitments_json
 filename: local_authority_net_zero_commitments.json
 version: latest
-full_version: 0.4.2
+full_version: 0.4.3
 file: /data/local_authority_net_zero_commitments/latest/local_authority_net_zero_commitments.json
 ---

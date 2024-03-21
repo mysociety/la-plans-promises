@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -171,7 +171,7 @@
                     }
                 ]
             },
-            "hash": "42ede7d3865c66056bc6b0f8ba663b80",
+            "hash": "53d4adc15572ceae3af246bad6d878b3",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -576,11 +576,11 @@
                 {
                     "local-authority-code": "BAE",
                     "council": "Bassetlaw District Council",
-                    "scope": "No promise",
-                    "target": "",
-                    "wording": "",
-                    "source_url": "",
-                    "source_name": "",
+                    "scope": "Council operations",
+                    "target": 2030.0,
+                    "wording": "Councillors at Bassetlaw District Council have unanimously committed to reducing council operations to Net Zero by 2030, following a motion to Council on Thursday 21st September 2023.",
+                    "source_url": "https://www.bassetlaw.gov.uk/media-centre/news/news-archive/september-2023/bassetlaw-district-council-commits-to-net-zero-operations-target-by-2030/#:~:text=target%20by%202030-,Bassetlaw%20District%20Council%20commits%20to%20Net%20Zero%20operations%20target%20by,on%20Thursday%2021st%20September%202023",
+                    "source_name": "Bassetlaw District Council commits to Net Zero operations target by 2030 ",
                     "data_checked": "",
                     "notes": "\"The UK government is at forefront of this battle, having signed into legislation June 2019 a commitment to become carbon neutral by 2050. As such, Bassetlaw District Council will be working hand-in-hand with other Local Authorities and businesses to reduce our emission and supporting the national agenda.\"",
                     "gss_code": "E07000171",
