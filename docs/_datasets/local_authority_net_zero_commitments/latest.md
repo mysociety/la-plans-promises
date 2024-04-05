@@ -47,9 +47,10 @@ custom:
     0.4.1: 'Minor change in data for resource(s): promises'
     0.4.2: 'Minor change in data for resource(s): promises'
     0.4.3: 'Minor change in data for resource(s): promises'
+    0.4.4: 'Minor change in data for resource(s): promises'
   datasette:
     about: Info & Downloads
-    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_3
+    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_4
   formats:
     csv: true
     parquet: true
@@ -61,7 +62,7 @@ resources:
     row_count: 494
     datasette:
       about: Info & Downloads
-      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_3#promises
+      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_4#promises
   path: promises.csv
   name: promises
   profile: tabular-data-resource
@@ -165,7 +166,7 @@ resources:
       constraints:
         unique: false
       example: CPCA
-  hash: 53d4adc15572ceae3af246bad6d878b3
-full_version: 0.4.3
+  hash: 2c30ed0f5b4a0db0fa02c0d48898e5cb
+full_version: 0.4.4
 permalink: /datasets/local_authority_net_zero_commitments/latest
 ---
