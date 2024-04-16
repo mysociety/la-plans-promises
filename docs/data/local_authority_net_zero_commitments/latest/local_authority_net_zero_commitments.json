@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.4.4",
+    "version": "0.4.5",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -77,7 +77,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 2022.0
+                        "example": 2023.0
                     },
                     {
                         "name": "wording",
@@ -171,7 +171,7 @@
                     }
                 ]
             },
-            "hash": "2c30ed0f5b4a0db0fa02c0d48898e5cb",
+            "hash": "20dadd614606ac3ebe46f87edaf62454",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -7072,10 +7072,10 @@
                 {
                     "local-authority-code": "THR",
                     "council": "Thurrock Council",
-                    "scope": "Other",
-                    "target": 2022.0,
-                    "wording": "Reducing emissions per job by 22% by 2022.\nReducing emissions per resident by 15% by 2022.\nReducing emissions per daily road movement by 15% by 2022\n\n",
-                    "source_url": "https://www.thurrock.gov.uk/greenhouse-gases/climate-change",
+                    "scope": "Council operations",
+                    "target": 2030.0,
+                    "wording": "At the Meeting of Council on 23rd October 2019 a motion was carried for Thurrock Council to reduce its net CO2 emission to zero by 2030.",
+                    "source_url": "https://www.thurrock.gov.uk/foi-responses/climate-emergency-carbon-reduction#:~:text=At%20the%20Meeting%20of%20Council%20on%2023rd%20October%202019%20a,form%20part%20of%20this%20evaluation",
                     "source_name": "Climate change | Thurrock Council",
                     "data_checked": "",
                     "notes": "",

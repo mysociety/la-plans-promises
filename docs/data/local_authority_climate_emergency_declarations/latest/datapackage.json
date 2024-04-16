@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.3.9",
+    "version": "0.3.10",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -66,11 +66,12 @@
             "0.3.6": "Minor change in data for resource(s): declarations",
             "0.3.7": "Minor change in data for resource(s): declarations",
             "0.3.8": "Minor change in data for resource(s): declarations",
-            "0.3.9": "Minor change in data for resource(s): declarations"
+            "0.3.9": "Minor change in data for resource(s): declarations",
+            "0.3.10": "Minor change in data for resource(s): declarations"
         },
         "datasette": {
             "about": "Info & Downloads",
-            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_9"
+            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_10"
         }
     },
     "resources": [
@@ -81,7 +82,7 @@
                 "row_count": 404,
                 "datasette": {
                     "about": "Info & Downloads",
-                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_9#declarations"
+                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_emergency_declarations/0_3_10#declarations"
                 }
             },
             "path": "declarations.csv",
@@ -208,7 +209,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "#NAME?"
+                        "example": "#ERROR!"
                     },
                     {
                         "name": "gss_code",
@@ -257,7 +258,7 @@
                     }
                 ]
             },
-            "hash": "05331a3c11719b392a86bd6eae25adc4"
+            "hash": "e8d0eb238abb10d94b04ef2fac34b4bc"
         }
     ]
 }

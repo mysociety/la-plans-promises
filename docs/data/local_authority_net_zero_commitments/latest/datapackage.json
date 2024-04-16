@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.4.4",
+    "version": "0.4.5",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -60,11 +60,12 @@
             "0.4.1": "Minor change in data for resource(s): promises",
             "0.4.2": "Minor change in data for resource(s): promises",
             "0.4.3": "Minor change in data for resource(s): promises",
-            "0.4.4": "Minor change in data for resource(s): promises"
+            "0.4.4": "Minor change in data for resource(s): promises",
+            "0.4.5": "Minor change in data for resource(s): promises"
         },
         "datasette": {
             "about": "Info & Downloads",
-            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_4"
+            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_5"
         }
     },
     "resources": [
@@ -75,7 +76,7 @@
                 "row_count": 494,
                 "datasette": {
                     "about": "Info & Downloads",
-                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_4#promises"
+                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_4_5#promises"
                 }
             },
             "path": "promises.csv",
@@ -128,7 +129,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 2022.0
+                        "example": 2023.0
                     },
                     {
                         "name": "wording",
@@ -222,7 +223,7 @@
                     }
                 ]
             },
-            "hash": "2c30ed0f5b4a0db0fa02c0d48898e5cb"
+            "hash": "20dadd614606ac3ebe46f87edaf62454"
         }
     ]
 }

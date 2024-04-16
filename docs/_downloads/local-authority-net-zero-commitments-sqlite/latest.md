@@ -5,6 +5,6 @@ package: local_authority_net_zero_commitments
 title: local_authority_net_zero_commitments_sqlite
 filename: local_authority_net_zero_commitments.sqlite
 version: latest
-full_version: 0.4.4
+full_version: 0.4.5
 file: /data/local_authority_net_zero_commitments/latest/local_authority_net_zero_commitments.sqlite
 ---

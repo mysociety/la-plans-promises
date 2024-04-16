@@ -5,6 +5,6 @@ package: local_authority_climate_emergency_declarations
 title: local_authority_climate_emergency_declarations_json
 filename: local_authority_climate_emergency_declarations.json
 version: latest
-full_version: 0.3.9
+full_version: 0.3.10
 file: /data/local_authority_climate_emergency_declarations/latest/local_authority_climate_emergency_declarations.json
 ---
