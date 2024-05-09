@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.4.5",
+    "version": "0.5.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -27,7 +27,7 @@
             "title": "Local authority net zero commitments",
             "description": "Dataset of net zero promises made by local authorities, including their scope and timeline",
             "custom": {
-                "row_count": 494
+                "row_count": 495
             },
             "name": "promises",
             "profile": "tabular-data-resource",
@@ -171,7 +171,7 @@
                     }
                 ]
             },
-            "hash": "20dadd614606ac3ebe46f87edaf62454",
+            "hash": "6278931a05b9c182ff961d585f2529ac",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -3072,11 +3072,27 @@
                 {
                     "local-authority-code": "HPL",
                     "council": "Hartlepool Borough Council",
-                    "scope": "No promise",
-                    "target": "",
-                    "wording": "",
-                    "source_url": "",
-                    "source_name": "",
+                    "scope": "Council operations",
+                    "target": 2030.0,
+                    "wording": "Hartlepool Borough Council is committed to taking a leading role and working with everyone across the Borough to act now on the causes and impacts of climate change",
+                    "source_url": "https://www.hartlepool.gov.uk/downloads/download/2415/climate_pledge",
+                    "source_name": "Climate Pledge",
+                    "data_checked": "",
+                    "notes": "",
+                    "gss_code": "E06000001",
+                    "region": "North East",
+                    "local-authority-type-name": "Unitary authority",
+                    "county-la": "",
+                    "combined-authority": "TVCA"
+                },
+                {
+                    "local-authority-code": "HPL",
+                    "council": "Hartlepool Borough Council",
+                    "scope": "Whole area",
+                    "target": 2050.0,
+                    "wording": "Hartlepool Borough Council is committed to taking a leading role and working with everyone across the Borough to act now on the causes and impacts of climate change",
+                    "source_url": "https://www.hartlepool.gov.uk/downloads/download/2415/climate_pledge",
+                    "source_name": "Climate Pledge",
                     "data_checked": "",
                     "notes": "No notes",
                     "gss_code": "E06000001",
