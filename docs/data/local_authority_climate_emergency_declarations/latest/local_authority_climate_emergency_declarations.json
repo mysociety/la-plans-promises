@@ -2,7 +2,7 @@
     "name": "local_authority_climate_emergency_declarations",
     "title": "Local authority climate emergency declarations",
     "description": "Dataset of local authority declarations of a climate emergency with key features flagged\n",
-    "version": "0.3.10",
+    "version": "0.3.11",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -200,7 +200,7 @@
                     }
                 ]
             },
-            "hash": "e8d0eb238abb10d94b04ef2fac34b4bc",
+            "hash": "9df5f3240996287b8c49c5e5141cd995",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -4045,9 +4045,9 @@
                 {
                     "local-authority-code": "HAV",
                     "council": "London Borough of Havering",
-                    "made_declaration": "N",
-                    "date_made": "",
-                    "motion_link": "",
+                    "made_declaration": "Y",
+                    "date_made": "22/03/2023",
+                    "motion_link": "Link",
                     "ref_to_adaptation": "",
                     "ecological_emergency": "No",
                     "ref_to_nature": "No",
@@ -4055,7 +4055,7 @@
                     "carbon_neutral_date": "",
                     "carbon_neutral_whole_date": "None",
                     "notes": "",
-                    "motion_url": "#ERROR!",
+                    "motion_url": "https://www.havering.gov.uk/news/article/1216/havering_declares_climate_emergency",
                     "gss_code": "E09000016",
                     "region": "London",
                     "local-authority-type-name": "London borough",
