@@ -2,7 +2,7 @@
     "name": "local_authority_climate_plans_metadata",
     "title": "Local authority climate plans metadata",
     "description": "Online location and basic description of contents of LA climate action plans\n",
-    "version": "0.19.1",
+    "version": "0.19.2",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -85,11 +85,12 @@
             "0.17.0": "Change in data for resource(s): plans",
             "0.18.0": "Change in data for resource(s): plans",
             "0.19.0": "Change in data for resource(s): plans",
-            "0.19.1": "Minor change in data for resource(s): plans"
+            "0.19.1": "Minor change in data for resource(s): plans",
+            "0.19.2": "Minor change in data for resource(s): plans"
         },
         "datasette": {
             "about": "Info & Downloads",
-            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_1"
+            "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_2"
         }
     },
     "resources": [
@@ -100,7 +101,7 @@
                 "row_count": 979,
                 "datasette": {
                     "about": "Info & Downloads",
-                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_1#plans"
+                    "about_url": "https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_2#plans"
                 }
             },
             "path": "plans.csv",
@@ -435,7 +436,7 @@
                     }
                 ]
             },
-            "hash": "f14a27cac0ec0656010c54f31c5116eb"
+            "hash": "c57e38b671aec0411a5521556a0ea298"
         }
     ]
 }

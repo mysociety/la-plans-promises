@@ -5,6 +5,6 @@ package: local_authority_climate_plans_metadata
 title: local_authority_climate_plans_metadata_json
 filename: local_authority_climate_plans_metadata.json
 version: latest
-full_version: 0.19.1
+full_version: 0.19.2
 file: /data/local_authority_climate_plans_metadata/latest/local_authority_climate_plans_metadata.json
 ---
