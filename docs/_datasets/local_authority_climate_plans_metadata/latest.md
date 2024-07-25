@@ -75,9 +75,10 @@ custom:
     0.19.1: 'Minor change in data for resource(s): plans'
     0.19.2: 'Minor change in data for resource(s): plans'
     0.19.3: 'Minor change in data for resource(s): plans'
+    0.19.4: 'Minor change in data for resource(s): plans'
   datasette:
     about: Info & Downloads
-    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_3
+    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_4
   formats:
     csv: true
     parquet: true
@@ -89,7 +90,7 @@ resources:
     row_count: 979
     datasette:
       about: Info & Downloads
-      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_3#plans
+      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_climate_plans_metadata/0_19_4#plans
   path: plans.csv
   name: plans
   profile: tabular-data-resource
@@ -315,7 +316,7 @@ resources:
       constraints:
         unique: false
       example: CPCA
-  hash: 8d8aa36910ace45d971ed94dec830c9e
-full_version: 0.19.3
+  hash: 0f28b834043f6d69665a661928473ac4
+full_version: 0.19.4
 permalink: /datasets/local_authority_climate_plans_metadata/latest
 ---
