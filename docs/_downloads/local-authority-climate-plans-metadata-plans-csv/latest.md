@@ -5,6 +5,6 @@ package: local_authority_climate_plans_metadata
 title: plans
 filename: plans.csv
 version: latest
-full_version: 0.19.4
+full_version: 0.20.0
 file: /data/local_authority_climate_plans_metadata/latest/plans.csv
 ---

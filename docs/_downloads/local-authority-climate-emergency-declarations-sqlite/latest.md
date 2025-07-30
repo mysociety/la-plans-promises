@@ -5,6 +5,6 @@ package: local_authority_climate_emergency_declarations
 title: local_authority_climate_emergency_declarations_sqlite
 filename: local_authority_climate_emergency_declarations.sqlite
 version: latest
-full_version: 0.3.11
+full_version: 0.3.12
 file: /data/local_authority_climate_emergency_declarations/latest/local_authority_climate_emergency_declarations.sqlite
 ---
