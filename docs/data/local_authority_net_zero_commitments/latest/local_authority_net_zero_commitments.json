@@ -2,7 +2,7 @@
     "name": "local_authority_net_zero_commitments",
     "title": "Local authority net zero commitments",
     "description": "Dataset of net zero promises made by local authorities, including their scope and timeline\n",
-    "version": "0.6.1",
+    "version": "0.7.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -27,7 +27,7 @@
             "title": "Local authority net zero commitments",
             "description": "Dataset of net zero promises made by local authorities, including their scope and timeline",
             "custom": {
-                "row_count": 496
+                "row_count": 497
             },
             "name": "promises",
             "profile": "tabular-data-resource",
@@ -171,7 +171,7 @@
                     }
                 ]
             },
-            "hash": "334b3bc21ec5a500a2459ae986319816",
+            "hash": "422c9ebf925d04ceaaa3e3184e5146d9",
             "data": [
                 {
                     "local-authority-code": "ABE",
@@ -532,7 +532,7 @@
                     "target": 2050.0,
                     "wording": "Councillors have approved Basildon's first ever climate change policy which aims to reduce greenhouse gas emissions and make the borough net-zero carbon by 2050.",
                     "source_url": "https://www.basildon.gov.uk/article/8479/In-the-news-Councillors-approve-Basildon-s-first-ever-climate-change-policy",
-                    "source_name": "Climate Change Policy | Basildodn Borough Council",
+                    "source_name": "Climate Change Policy | Basildon Borough Council",
                     "data_checked": "",
                     "notes": "",
                     "gss_code": "E07000066",
@@ -7708,6 +7708,22 @@
                     "local-authority-type-name": "London borough",
                     "county-la": "",
                     "combined-authority": "GLA"
+                },
+                {
+                    "local-authority-code": "WAF",
+                    "council": "Westmorland and Furness Council",
+                    "scope": "Whole area",
+                    "target": 2037.0,
+                    "wording": "Westmorland and Furness Council is working hard to ensure that the area we serve becomes carbon net zero by 2037, and our organisation, as soon as possible.",
+                    "source_url": "https://www.westmorlandandfurness.gov.uk/your-council/council-documents/council-plan",
+                    "source_name": "Council Plan | Westmorland and Furness Council",
+                    "data_checked": "2025-07-30",
+                    "notes": "",
+                    "gss_code": "E06000064",
+                    "region": "North West",
+                    "local-authority-type-name": "Unitary authority",
+                    "county-la": "",
+                    "combined-authority": ""
                 },
                 {
                     "local-authority-code": "WGN",

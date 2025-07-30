@@ -52,9 +52,10 @@ custom:
     0.5.0: 'Change in data for resource(s): promises'
     0.6.0: 'Change in data for resource(s): promises'
     0.6.1: 'Minor change in data for resource(s): promises'
+    0.7.0: 'Change in data for resource(s): promises'
   datasette:
     about: Info & Downloads
-    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_6_1
+    about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_7_0
   formats:
     csv: true
     parquet: true
@@ -63,10 +64,10 @@ resources:
   description: Dataset of net zero promises made by local authorities, including their
     scope and timeline
   custom:
-    row_count: 496
+    row_count: 497
     datasette:
       about: Info & Downloads
-      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_6_1#promises
+      about_url: https://mysociety.github.io/la_plans_promises/datasets/local_authority_net_zero_commitments/0_7_0#promises
   path: promises.csv
   name: promises
   profile: tabular-data-resource
@@ -170,7 +171,7 @@ resources:
       constraints:
         unique: false
       example: CPCA
-  hash: 334b3bc21ec5a500a2459ae986319816
-full_version: 0.6.1
+  hash: 422c9ebf925d04ceaaa3e3184e5146d9
+full_version: 0.7.0
 permalink: /datasets/local_authority_net_zero_commitments/latest
 ---
