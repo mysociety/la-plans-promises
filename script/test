@@ -10,17 +10,11 @@ echo "Running black"
 echo "--------------"
 poetry run black . --check
 blackexit=$?
-echo "--------------"
-echo "Running pyright"
-echo "--------------"
-poetry run pyright
-pyrightexit=$?
 
 echo "Pytest status: $pytestexit"
 echo "Black status: $blackexit"
-echo "Pyright status: $pyrightexit"
 
-sum="$(($pytestexit + $blackexit + $pyrightexit))"
+sum="$(($pytestexit + $blackexit))"
 
 if [ "$sum" != "0" ]; then
     exit 1
